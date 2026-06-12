@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS / editor artifacts
+desktop.ini
+.DS_Store
+Thumbs.db
+~$*
+
+# Material not redistributed (copyright)
+papers/
+03_retrieval/retained_papers/
+08_manuscript/
+reviews/
+09_helpers/
