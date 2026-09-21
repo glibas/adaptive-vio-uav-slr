@@ -1,87 +1,124 @@
-id,class_id,tier,qa1,qa2,qa3,qa4,qa5,qa_total,qa_flag,evidence,title
-P0216,C3,targeted,1.0,1,1.0,0.5,1.0,4.5,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,Visual-Inertial Image-Odometry Network (VIIONet): A Gaussian process regression-
-P0217,C1,targeted,1,1,1.0,0.0,1.0,4.0,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,SIMSF: A Scale Insensitive Multi-Sensor Fusion Framework for Unmanned Aerial Veh
-P0226,C5,targeted,1.0,1,0.0,0.5,0.5,3.0,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,Uncrewed system localization using deliberate thermal features
-P0228,C4,targeted,1,1,1.0,0.5,1.0,4.5,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,Accurate IMU Factor Using Switched Linear Systems for VIO
-P0018,C1,targeted,1,1,1.0,0.0,1.0,4.0,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,Tightly-coupled Fusion of Global Positional Measurements in Optimization-based V
-P0021,C6,targeted,1.0,1,0.5,1.0,1.0,4.5,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,Visual-inertial-actuator odometry for multirotor UAVs with rotor drag and extern
-P0023,C4,targeted,1,1,1.0,0.5,1.0,4.5,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,Stereo visual-inertial fusion for UAV state estimation
-P0027,C2,skim,1,1,1.0,0.5,1.0,4.5,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,Visual-inertial odometry with robust initialization and online scale estimation
-P0245,C6,targeted,1,1,0.5,0.0,0.5,3.0,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,Visual-Inertial Navigation Algorithm Development Using Photorealistic Camera Sim
-P0037,C2,core,1.0,1,0.5,1.0,1.0,4.5,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,Adaptive Covariance and Quaternion-Focused Hybrid Error-State EKF/UKF for Visual
-P0279,C3,targeted,1,1,0.5,0.5,0.5,3.5,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,Visual-inertial odometry for unmanned aerial vehicle using deep learning
-P0282,C6,targeted,1,1,1.0,1.0,1.0,5.0,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,MONO-HYDRA: REAL-TIME 3D SCENE GRAPH CONSTRUCTION FROM MONOCULAR CAMERA INPUT WI
-P0285,C2,targeted,1.0,1,1.0,0.5,1.0,4.5,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,Online spatial and temporal calibration for monocular direct visual-inertial odo
-P0286,C1,core,1,1,1.0,0.5,1.0,4.5,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,VIUNet: Deep Visual-Inertial-UWB Fusion for Indoor UAV Localization
-P0067,C2,core,1.0,1,0.0,0.5,0.5,3.0,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,Sensing and control of a quadrotor using a visual inertial fusion method
-P0309,C1,targeted,1,1,0.5,0.5,1.0,4.0,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,Distributed Variable-Baseline Stereo SLAM from two UAVs
-P0315,C7,targeted,1,1,0.0,0.0,0.5,2.5,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,Direct feature correspondence in vision-aided inertial navigation for unmanned a
-P0099,C3,skim,1,1,1.0,1.0,1.0,5.0,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,Learning Pose Estimation for UAV Autonomous Navigation and Landing Using Visual-
-P0321,C6,targeted,1,1,1.0,0.5,1.0,4.5,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,Onboard real-time dense reconstruction of large-scale environments for UAV
-P0327,C6,targeted,1,1,1.0,0.5,1.0,4.5,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,Viewpoint-Tolerant Place Recognition Combining 2D and 3D Information for UAV Nav
-P0329,C4,targeted,1.0,1.0,0.0,0.5,1.0,3.5,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,Control-enabled observability in visual-inertial odometry
-P0103,C6,skim,1,1,1.0,0.5,1.0,4.5,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,ST-VIO: Visual-Inertial Odometry Combined with Image Segmentation and Tracking
-P0105,C2,core,1,1,0.5,0.0,0.5,3.0,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,An Online Calibration 2-DoF Attitude and Height State Estimator
-P0336,C5,targeted,1,1,1.0,0.0,1.0,4.0,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,Robust thermal-inertial localization for aerial robots: A case for direct method
-P0337,C2,targeted,1.0,1,0.0,1.0,1.0,4.0,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,Fusion of Optical Flow and Dead Reckoning Algorithms for UAV Navigation Without 
-P0108,C7,targeted,1,1,0.0,0.5,0.5,3.0,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,Visual Inertial Navigation for a Small UAV Using Sparse and Dense Optical Flow
-P0339,C1,targeted,1,1,1.0,1.0,1.0,5.0,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,LGVINS: LiDAR-GPS-Visual and Inertial System Based Multi-Sensor Fusion for Smoot
-P0341,C7,targeted,1.0,1,1.0,0.5,1.0,4.5,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,Deployment of Reliable Visual Inertial Odometry Approaches for Unmanned Aerial V
-P0345,C6,targeted,1,1,0.5,0.0,1.0,3.5,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,Dense visual-inertial navigation system for mobile robots
-P0116,C1,targeted,1,1.0,0.5,1.0,1.0,4.5,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,Cooperative UAV navigation using inter-vehicle ranging and magnetic anomaly meas
-P0124,C7,targeted,1.0,1,0.5,0.5,1.0,4.0,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,Latency compensated visual-inertial odometry for agile autonomous flight
-P0351,C2,skim,1,1.0,0.0,0.5,1.0,3.5,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,Control-enabled Observability and Sensitivity Functions in Visual-Inertial Odome
-P0352,C6,targeted,1,1.0,0.0,0.0,0.5,2.5,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,A Visual/Inertial Relative Navigation Method for UAV Formation
-P0135,C6,targeted,1,1,0.0,0.0,0.5,2.5,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,Autonomous exploration of visually-degraded environments using aerial robots
-P0361,C2,core,1,1,0.5,1.0,1.0,4.5,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,Robust visual inertial odometry using a direct EKF-based approach
-P0363,C6,targeted,1,1,0.5,1.0,1.0,4.5,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,Autonomous Localization and Navigation for Drones Over Rivers
-P0367,C1,targeted,1,1,1.0,1.0,1.0,5.0,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,Cooperative Navigation and Guidance of a Micro-Scale Aerial Vehicle by an Accomp
-P0373,C2,targeted,1.0,1,1.0,1.0,1.0,5.0,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,Perception-aided Visual-Inertial Integrated Positioning in Dynamic Urban Areas
-P0377,C1,targeted,1,1,1.0,0.5,1.0,4.5,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,GOMSF: Graph-Optimization Based Multi-Sensor Fusion for robust UAV Pose estimati
-P0383,C5,core,1,1,1.0,1.0,1.0,5.0,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,Perception in the dark—development of a ToF visual inertial odometry system
-P0393,C5,core,1,1.0,0.0,0.0,1.0,3.0,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,Laser-aided Infrared Visual Inertial Odometry for Unmanned Aerial Vehicle with M
-P0176,C2,core,1,1,1.0,1.0,1.0,5.0,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,Photometric Visual-Inertial Navigation with Uncertainty-Aware Ensembles
-P0177,C1,targeted,1.0,1,1.0,1.0,0.5,4.5,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,Enhancing UAV Autonomy and Path Optimization Through SBAS and Visual-Inertial Od
-P0178,C1,targeted,1,1,1.0,0.5,1.0,4.5,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,Fusion of Visual-Inertial Odometry With LiDAR Relative Localization for Cooperat
-P0408,C1,targeted,1.0,1,0.0,0.5,0.5,3.0,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,Computationally efficient visual-inertial sensor fusion for Global Positioning S
-P0412,C6,targeted,1,1,1.0,1.0,1.0,5.0,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,Robust visual-inertial localization with weak GPS priors for repetitive UAV flig
-P0182,C6,skim,1,1,0.0,0.5,1.0,3.5,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,Monocular visual-inertial SLAM for fixed-wing UAVs using sliding window based no
-P0196,C6,targeted,1.0,1,0.5,1.0,1.0,4.5,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,"AIVIO: Closed-Loop, Object-Relative Navigation of UAVs With AI-Aided Visual Iner"
-P0202,C2,targeted,1,1,1.0,0.0,1.0,4.0,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,PLI-VIO: Real-time Monocular Visual-inertial Odometry Using Point and Line Inter
-P0440,C3,targeted,1.0,1,1.0,0.5,1.0,4.5,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,SupSLAM: A Robust Visual Inertial SLAM System Using SuperPoint for Unmanned Aeri
-P0455,C7,core,1.0,1.0,0.5,0.5,1.0,4.0,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,UAV state and parameter estimation in wind using calibration trajectories optimi
-P0459,C6,targeted,0.5,1,1.0,0.5,1.0,4.0,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,Towards UAV-Based Absolute Hierarchical Localization in Confined Spaces
-P0485,,targeted,1.0,1,0.5,0.5,0.5,3.5,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,Robust Sensor Fusion for Autonomous UAV Navigation in GPS denied Forest Environm
-P0538,C6,skim,1,1,1.0,1.0,1.0,5.0,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,Towards Globally Consistent Visual-Inertial Collaborative SLAM
-P0535,C7,targeted,1,1,1.0,1.0,1.0,5.0,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,LSTM and Filter Based Comparison Analysis for Indoor Global Localization in UAVs
-P0545,C7,skim,1.0,1,1.0,0.5,1.0,4.5,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,Encoderless Gimbal Calibration of Dynamic Multi-Camera Clusters
-P0594,,targeted,1.0,1,0.5,1.0,1.0,4.5,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,A Robust UAV System for Operations in a Constrained Environment
-P0627,C2,targeted,1,1,0.5,1.0,1.0,4.5,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,Flexible Trinocular: Non-rigid Multi-Camera-IMU Dense Reconstruction for UAV Nav
-P0089,C4,core,1,1,0.5,1.0,1.0,4.5,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,Autonomous navigation of micro aerial vehicles using high-rate and low-cost sens
-P0026,C1,targeted,1.0,1.0,1.0,0.5,1.0,4.5,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,Information sparsification for visual-inertial odometry by manipulating Bayes tree
-P0039,C5,core,1.0,1.0,1.0,0.5,1.0,4.5,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,R-LVIO: Resilient LiDAR-Visual-Inertial Odometry for UAVs in GNSS-denied Environment
-P0087,C2,core,1.0,1.0,1.0,1.0,1.0,5.0,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,TSFNet: A Two-Stage Fusion Network for Visual–Inertial Odometry
-P0101,C2,core,1.0,1.0,1.0,0.5,1.0,4.5,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,Adaptive Covariance Matrix for UAV-Based Visual–Inertial Navigation Systems Using Gaussian Formulas
-P0106,C5,core,1.0,1.0,1.0,1.0,1.0,5.0,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,Indoor UAV navigation using event cameras and intermediate frame reconstruction
-P0115,C2,core,1.0,1.0,1.0,1.0,1.0,5.0,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,UAV–UGV Collaborative Localization in GNSS-Denied Large-Scale Environments: An Anchor-Free VIO–UWB Fusion with Adaptive 
-P0122,C7,core,1.0,1.0,1.0,1.0,1.0,5.0,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,GPLVINS: Tightly Coupled GNSS-Visual-Inertial Fusion for Consistent State Estimation with Point and Line Features for Un
-P0131,C2,core,1.0,1.0,1.0,0.5,1.0,4.5,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,GNSS-Denied Semi-Direct Visual Navigation for Autonomous UAVs Aided by PI-Inspired Inertial Priors
-P0133,C7,core,1.0,1.0,0.5,0.5,1.0,4.0,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,A Method for Measuring the Error Rules in Visual Inertial Odometry Based on Scene Matching Corrections
-P0167,C5,core,1.0,1.0,1.0,1.0,1.0,5.0,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,GNSS-denied UAV indoor navigation with UWB incorporated visual inertial odometry
-P0172,C5,core,1.0,1.0,1.0,1.0,1.0,5.0,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,HCCNet: Hybrid Coupled Cooperative Network for Robust Indoor Localization
-P0187,C5,core,1.0,1.0,1.0,1.0,1.0,5.0,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,An Indoor UAV Localization Framework with ESKF Tightly-Coupled Fusion and Multi-Epoch UWB Outlier Rejection
-P0188,C5,core,1.0,1.0,1.0,0.5,1.0,4.5,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,REVIO: Range- and Event-Based Visual-Inertial Odometry for Bio-Inspired Sensors
-P0197,C7,core,1.0,1.0,1.0,1.0,1.0,5.0,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,UAV navigation in large-scale GPS-denied bridge environments using fiducial marker-corrected stereo visual-inertial loca
-P0208,C2,core,1.0,1.0,1.0,1.0,1.0,5.0,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,UAV Sensor Data Fusion for Localization Using Adaptive Multiscale Feature Matching Mechanisms Under GPS-Deprived Environ
-P0294,C1,skim,1.0,1.0,1.0,0.5,1.0,4.5,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,A cliquey subgraph approach to sparsified UAV visual inertial odometry by surjective Bayes-tree-to-factor-graph mapping
-P0298,C2,core,1.0,1.0,1.0,1.0,1.0,5.0,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,Real-time motion state estimation of feature points based on optical flow field for robust monocular visual-inertial odo
-P0300,C6,targeted,1.0,1.0,1.0,0.5,1.0,4.5,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,CDSFusion: Dense Semantic SLAM for Indoor Environment Using CPU Computing
-P0302,C7,targeted,1.0,1.0,0.5,0.5,1.0,4.0,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,Loop Detection Method Based on Neural Radiance Field BoW Model for Visual Inertial Navigation of UAVs
-P0316,C5,core,1.0,1.0,1.0,1.0,1.0,5.0,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,Range–Visual–Inertial Odometry with Coarse-to-Fine Image Registration Fusion for UAV Localization
-P0326,C2,core,1.0,1.0,1.0,0.5,1.0,4.5,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,Landmark-Based Scale Estimation and Correction of Visual Inertial Odometry for VTOL UAVs in a GPS-Denied Environment
-P0401,C7,targeted,1.0,1.0,1.0,1.0,1.0,5.0,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,Low Latency Visual Inertial Odometry With On-Sensor Accelerated Optical Flow for Resource-Constrained UAVs
-P0414,C1,targeted,1.0,1.0,1.0,1.0,1.0,5.0,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,A tightly-coupled dense monocular Visual-Inertial Odometry system with lightweight depth estimation network
-P0422,C5,core,1.0,1.0,1.0,0.5,1.0,4.5,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,Square-Root Inverse Filter-based GNSS-Visual-Inertial Navigation
-P0427,C2,core,1.0,1.0,1.0,0.5,1.0,4.5,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,LSAF-LSTM-Based Self-Adaptive Multi-Sensor Fusion for Robust UAV State Estimation in Challenging Environments †
-P0481,C5,core,1.0,1.0,0.5,0.5,1.0,4.0,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,Data-Efficient Collaborative Decentralized Thermal-Inertial Odometry
-P0624,C7,core,1.0,1.0,0.5,0.5,1.0,4.0,,Scored from full text against the QA1-QA5 rubric (paper Section 2.6); final scores 2026-06-12,Particle Filter-Based Localization Using Visual Feature Synchronization in GNSS-Denied Navigation
+id,class_id,qa1,qa2,qa3,qa4,qa5,qa_total,title
+P0216,C3,1.0,1,1.0,0.5,1.0,4.5,Visual-Inertial Image-Odometry Network (VIIONet): A Gaussian process regression-
+P0217,C1,1,1,1.0,0.0,1.0,4.0,SIMSF: A Scale Insensitive Multi-Sensor Fusion Framework for Unmanned Aerial Veh
+P0228,C4,1,1,1.0,0.5,1.0,4.5,Accurate IMU Factor Using Switched Linear Systems for VIO
+P0018,C1,1,1,1.0,0.0,1.0,4.0,Tightly-coupled Fusion of Global Positional Measurements in Optimization-based V
+P0021,C6,1.0,1,0.5,1.0,1.0,4.5,Visual-inertial-actuator odometry for multirotor UAVs with rotor drag and extern
+P0023,C4,1,1,1.0,0.5,1.0,4.5,Stereo visual-inertial fusion for UAV state estimation
+P0027,C2,1,1,1.0,0.5,1.0,4.5,Visual-inertial odometry with robust initialization and online scale estimation
+P0245,C6,1,1,0.5,0.0,0.5,3.0,Visual-Inertial Navigation Algorithm Development Using Photorealistic Camera Sim
+P0037,C2,1.0,1,0.5,1.0,1.0,4.5,Adaptive Covariance and Quaternion-Focused Hybrid Error-State EKF/UKF for Visual
+P0285,C2,1.0,1,1.0,0.5,1.0,4.5,Online spatial and temporal calibration for monocular direct visual-inertial odo
+P0286,C1,1,1,1.0,0.5,1.0,4.5,VIUNet: Deep Visual-Inertial-UWB Fusion for Indoor UAV Localization
+P0067,C2,1.0,1,0.0,0.5,0.5,3.0,Sensing and control of a quadrotor using a visual inertial fusion method
+P0309,C1,1,1,0.5,0.5,1.0,4.0,Distributed Variable-Baseline Stereo SLAM from two UAVs
+P0315,C7,1,1,0.0,0.0,0.5,2.5,Direct feature correspondence in vision-aided inertial navigation for unmanned a
+P0099,C3,1,1,1.0,1.0,1.0,5.0,Learning Pose Estimation for UAV Autonomous Navigation and Landing Using Visual-
+P0321,C6,1,1,1.0,0.5,1.0,4.5,Onboard real-time dense reconstruction of large-scale environments for UAV
+P0103,C6,1,1,1.0,0.5,1.0,4.5,ST-VIO: Visual-Inertial Odometry Combined with Image Segmentation and Tracking
+P0105,C2,1,1,0.5,0.0,0.5,3.0,An Online Calibration 2-DoF Attitude and Height State Estimator
+P0336,C5,1,1,1.0,0.0,1.0,4.0,Robust thermal-inertial localization for aerial robots: A case for direct method
+P0337,C2,1.0,1,0.0,1.0,1.0,4.0,Fusion of Optical Flow and Dead Reckoning Algorithms for UAV Navigation Without 
+P0108,C7,1,1,0.0,0.5,0.5,3.0,Visual Inertial Navigation for a Small UAV Using Sparse and Dense Optical Flow
+P0339,C1,1,1,1.0,1.0,1.0,5.0,LGVINS: LiDAR-GPS-Visual and Inertial System Based Multi-Sensor Fusion for Smoot
+P0341,C7,1.0,1,1.0,0.5,1.0,4.5,Deployment of Reliable Visual Inertial Odometry Approaches for Unmanned Aerial V
+P0345,C6,1,1,0.5,0.0,1.0,3.5,Dense visual-inertial navigation system for mobile robots
+P0124,C7,1.0,1,0.5,0.5,1.0,4.0,Latency compensated visual-inertial odometry for agile autonomous flight
+P0361,C2,1,1,0.5,1.0,1.0,4.5,Robust visual inertial odometry using a direct EKF-based approach
+P0363,C6,1,1,0.5,1.0,1.0,4.5,Autonomous Localization and Navigation for Drones Over Rivers
+P0377,C1,1,1,1.0,0.5,1.0,4.5,GOMSF: Graph-Optimization Based Multi-Sensor Fusion for robust UAV Pose estimati
+P0383,C5,1,1,1.0,1.0,1.0,5.0,Perception in the dark—development of a ToF visual inertial odometry system
+P0393,C5,1,1.0,0.0,0.0,1.0,3.0,Laser-aided Infrared Visual Inertial Odometry for Unmanned Aerial Vehicle with M
+P0176,C2,1,1,1.0,1.0,1.0,5.0,Photometric Visual-Inertial Navigation with Uncertainty-Aware Ensembles
+P0178,C1,1,1,1.0,0.5,1.0,4.5,Fusion of Visual-Inertial Odometry With LiDAR Relative Localization for Cooperat
+P0408,C1,1.0,1,0.0,0.5,0.5,3.0,Computationally efficient visual-inertial sensor fusion for Global Positioning S
+P0412,C6,1,1,1.0,1.0,1.0,5.0,Robust visual-inertial localization with weak GPS priors for repetitive UAV flig
+P0182,C6,1,1,0.0,0.5,1.0,3.5,Monocular visual-inertial SLAM for fixed-wing UAVs using sliding window based no
+P0196,C6,1.0,1,0.5,1.0,1.0,4.5,"AIVIO: Closed-Loop, Object-Relative Navigation of UAVs With AI-Aided Visual Iner"
+P0202,C2,1,1,1.0,0.0,1.0,4.0,PLI-VIO: Real-time Monocular Visual-inertial Odometry Using Point and Line Inter
+P0440,C3,1.0,1,1.0,0.5,1.0,4.5,SupSLAM: A Robust Visual Inertial SLAM System Using SuperPoint for Unmanned Aeri
+P0538,C6,1,1,1.0,1.0,1.0,5.0,Towards Globally Consistent Visual-Inertial Collaborative SLAM
+P0535,C7,1,1,1.0,1.0,1.0,5.0,LSTM and Filter Based Comparison Analysis for Indoor Global Localization in UAVs
+P0545,C7,1.0,1,1.0,0.5,1.0,4.5,Encoderless Gimbal Calibration of Dynamic Multi-Camera Clusters
+P0089,C4,1,1,0.5,1.0,1.0,4.5,Autonomous navigation of micro aerial vehicles using high-rate and low-cost sens
+P0026,C1,1.0,1.0,1.0,0.5,1.0,4.5,Information sparsification for visual-inertial odometry by manipulating Bayes tree
+P0039,C5,1.0,1.0,1.0,0.5,1.0,4.5,R-LVIO: Resilient LiDAR-Visual-Inertial Odometry for UAVs in GNSS-denied Environment
+P0087,C2,1.0,1.0,1.0,1.0,1.0,5.0,TSFNet: A Two-Stage Fusion Network for Visual–Inertial Odometry
+P0101,C2,1.0,1.0,1.0,0.5,1.0,4.5,Adaptive Covariance Matrix for UAV-Based Visual–Inertial Navigation Systems Using Gaussian Formulas
+P0106,C5,1.0,1.0,1.0,1.0,1.0,5.0,Indoor UAV navigation using event cameras and intermediate frame reconstruction
+P0115,C2,1.0,1.0,1.0,1.0,1.0,5.0,UAV–UGV Collaborative Localization in GNSS-Denied Large-Scale Environments: An Anchor-Free VIO–UWB Fusion with Adaptive 
+P0122,C7,1.0,1.0,1.0,1.0,1.0,5.0,GPLVINS: Tightly Coupled GNSS-Visual-Inertial Fusion for Consistent State Estimation with Point and Line Features for Un
+P0131,C2,1.0,1.0,1.0,0.5,1.0,4.5,GNSS-Denied Semi-Direct Visual Navigation for Autonomous UAVs Aided by PI-Inspired Inertial Priors
+P0167,C5,1.0,1.0,1.0,1.0,1.0,5.0,GNSS-denied UAV indoor navigation with UWB incorporated visual inertial odometry
+P0172,C5,1.0,1.0,1.0,1.0,1.0,5.0,HCCNet: Hybrid Coupled Cooperative Network for Robust Indoor Localization
+P0187,C5,1.0,1.0,1.0,1.0,1.0,5.0,An Indoor UAV Localization Framework with ESKF Tightly-Coupled Fusion and Multi-Epoch UWB Outlier Rejection
+P0188,C5,1.0,1.0,1.0,0.5,1.0,4.5,REVIO: Range- and Event-Based Visual-Inertial Odometry for Bio-Inspired Sensors
+P0197,C7,1.0,1.0,1.0,1.0,1.0,5.0,UAV navigation in large-scale GPS-denied bridge environments using fiducial marker-corrected stereo visual-inertial loca
+P0208,C2,1.0,1.0,1.0,1.0,1.0,5.0,UAV Sensor Data Fusion for Localization Using Adaptive Multiscale Feature Matching Mechanisms Under GPS-Deprived Environ
+P0294,C1,1.0,1.0,1.0,0.5,1.0,4.5,A cliquey subgraph approach to sparsified UAV visual inertial odometry by surjective Bayes-tree-to-factor-graph mapping
+P0298,C2,1.0,1.0,1.0,1.0,1.0,5.0,Real-time motion state estimation of feature points based on optical flow field for robust monocular visual-inertial odo
+P0300,C6,1.0,1.0,1.0,0.5,1.0,4.5,CDSFusion: Dense Semantic SLAM for Indoor Environment Using CPU Computing
+P0302,C7,1.0,1.0,0.5,0.5,1.0,4.0,Loop Detection Method Based on Neural Radiance Field BoW Model for Visual Inertial Navigation of UAVs
+P0316,C5,1.0,1.0,1.0,1.0,1.0,5.0,Range–Visual–Inertial Odometry with Coarse-to-Fine Image Registration Fusion for UAV Localization
+P0326,C2,1.0,1.0,1.0,0.5,1.0,4.5,Landmark-Based Scale Estimation and Correction of Visual Inertial Odometry for VTOL UAVs in a GPS-Denied Environment
+P0414,C1,1.0,1.0,1.0,1.0,1.0,5.0,A tightly-coupled dense monocular Visual-Inertial Odometry system with lightweight depth estimation network
+P0422,C5,1.0,1.0,1.0,0.5,1.0,4.5,Square-Root Inverse Filter-based GNSS-Visual-Inertial Navigation
+P0427,C2,1.0,1.0,1.0,0.5,1.0,4.5,LSAF-LSTM-Based Self-Adaptive Multi-Sensor Fusion for Robust UAV State Estimation in Challenging Environments †
+P0481,C5,1.0,1.0,0.5,0.5,1.0,4.0,Data-Efficient Collaborative Decentralized Thermal-Inertial Odometry
+P0624,C7,1.0,1.0,0.5,0.5,1.0,4.0,Particle Filter-Based Localization Using Visual Feature Synchronization in GNSS-Denied Navigation
+P0378,C6,1.0,1.0,1.0,1.0,0.5,4.5,C2VIR-SLAM: Centralized Collaborative Visual-Inertial-Range Simultaneous Localiz
+P0403,C6,1.0,0.5,1.0,0.5,0.5,3.5,Research on Unmanned Aerial Vehicle (UAV) Visual Landing Guidance and Positionin
+P0406,C6,1.0,0.5,1.0,0.5,1.0,4.0,Structure Priors Aided Visual-Inertial Navigation in Building Inspection Tasks w
+P0338,C2,1.0,1.0,1.0,0.0,0.5,3.5,DeepUKF-VIN: Adaptively-tuned Deep Unscented Kalman Filter for 3D Visual-Inertia
+P0118,C5,1.0,0.5,1.0,0.0,0.5,3.0,Event-Based Visual/Inertial Odometry for UAV Indoor Navigation
+P0031,C2,1.0,1.0,1.0,0.5,0.5,4.0,Position Uncertainty Reduction in Visual-Inertial Navigation Systems Using Multi
+P0256,C1,1.0,1.0,1.0,0.5,0.5,4.0,UAV Visual-Inertial Dynamics (VI-D) Odometry using Unscented Kalman Filter
+P0284,C1,1.0,1.0,1.0,0.0,0.5,3.5,Quaternion-Based Unscented Kalman Filter for 6-DoF Vision-Based Inertial Navigat
+P0322,C2,1.0,0.5,1.0,1.0,0.5,4.0,A new visual-inertial odometry scheme for unmanned systems in unified framework 
+P0340,C5,1.0,1.0,1.0,0.5,0.5,4.0,UVIO: An UWB-Aided Visual-Inertial Odometry Framework with Bias-Compensated Anch
+P0346,C2,1.0,1.0,1.0,0.5,1.0,4.5,GPS-VIO Fusion with Online Rotational Calibration
+P0349,C1,1.0,1.0,1.0,0.5,0.5,4.0,HVIOnet: A deep learning based hybrid visual–inertial odometry approach for unma
+P0417,C2,1.0,1.0,1.0,1.0,1.0,5.0,Enhancing VIO Robustness Under Sudden Lighting Variation: A Learning-Based IMU D
+P0418,C3,1.0,1.0,1.0,0.5,1.0,4.5,In-Flight Initialization of Global Visual-Inertial Estimators using Geospatial D
+P0662,C1,1.0,1.0,1.0,0.5,1.0,4.5,"FAST-LIVO2: Fast, Direct LiDAR–Inertial–Visual Odometry"
+P0663,C6,1.0,1.0,1.0,1.0,1.0,5.0,$D^{2}$SLAM: Decentralized and Distributed Collaborative Visual-Inertial SLAM Sy
+P0044,C1,1.0,0.5,0.5,0.0,0.5,2.5,Multi-Sensor Fusion Framework Based on GPS State Detection
+P0002,C1,1.0,0.5,1.0,0.5,0.5,3.5,A Real-time Framework for UAV Indoor Self-Positioning and 3D Mapping Base on 2D 
+P0016,C1,1.0,1.0,1.0,1.0,1.0,5.0,GeoVINS: Geographic-Visual-Inertial Navigation System for Large-Scale Drift-Free
+P0036,C1,1.0,0.5,1.0,0.5,0.5,3.5,GO-SLAM: GPS-Aided Visual-Inertial SLAM for Adaptive UAV Navigation in Outdoor-I
+P0048,C5,1.0,1.0,0.0,1.0,0.5,3.5,A Distributed SLAM with UWB-VIO Fusion Framework for Enhanced Relative Localizat
+P0055,C3,1.0,0.5,0.0,1.0,0.5,3.0,Getting Started with a Simple Visual-Inertial Odometry
+P0063,C5,1.0,0.5,1.0,0.0,0.5,3.0,Formation Maintenance Method for Multi-UAV in Unknown Environments
+P0070,C1,1.0,1.0,1.0,0.5,1.0,4.5,"Localization, Planning, and Control of a UAV for Rapid Complete Coverage Bridge "
+P0072,C7,1.0,0.5,1.0,0.0,0.5,3.0,A monocular inertial UAV SLAM algorithm leveraging feature clustering
+P0076,C7,1.0,1.0,1.0,1.0,0.5,4.5,Tightly-coupled Line Feature-aided Visual Inertial Localization within Lightweig
+P0084,C2,1.0,0.5,1.0,0.5,0.5,3.5,A Comparative Analysis of Hybrid Sensor Fusion Schemes for Visual-Inertial Navig
+P0086,C5,1.0,1.0,1.0,0.5,0.5,4.0,Integrated Resonant Beam and VIO for UAV Position and Attitude Sensing in Air-Gr
+P0153,C7,1.0,1.0,1.0,1.0,1.0,5.0,A Visual-Inertial Navigation Coupled Localization Method Based on Adaptive Point
+P0271,C1,1.0,1.0,1.0,0.5,1.0,4.5,Multiview Landmark-Assisted UAV Swarm 6-DoF Pose Estimation Using Resonant Beam 
+P0289,C1,1.0,1.0,1.0,0.5,1.0,4.5,Cooperative Visual-Range-Inertial Navigation for Multiple Unmanned Aerial Vehicl
+P0293,C7,1.0,1.0,1.0,0.0,0.5,3.5,Fast and Robust Semidirect Monocular Visual-Inertial Odometry for UAV
+P0368,C4,1.0,1.0,0.5,0.5,0.5,3.5,Sensitivity Analysis of a Visual Inertial Odometry-based Navigation System for U
+P0369,C7,1.0,1.0,0.0,0.5,0.5,3.0,Tightly coupled visual inertial odometry based on artificial landmarks
+P0049,C1,1.0,1.0,1.0,0.5,1.0,4.5,A 2D Georeferenced Map Aided Visual-Inertial System for Precise UAV Localization
+P0437,C1,1.0,1.0,0.5,0.5,1.0,4.0,Error State Extended Kalman Filter Multi-Sensor Fusion for Unmanned Aerial Vehic
+P0632,C6,1.0,1.0,1.0,1.0,1.0,5.0,Flying Co-Stereo: Enabling Long-Range Aerial Dense Mapping via Collaborative Ste
+P0005,C6,1.0,0.5,0.0,0.5,0.5,2.5,Robust UAV Localization in GNSS-Denied Environments via Efficient Visual Scene M
+P0042,C6,1.0,1.0,1.0,0.5,0.5,4.0,Efficient Visual-Inertial Navigation with Point-Plane Map
+P0052,C2,1.0,0.5,1.0,0.0,0.5,3.0,An Adaptive Approach based on Multi-State Constraint Kalman Filter for UAVs
+P0075,C2,1.0,0.5,0.5,0.5,0.5,3.0,Comparison of Visual-Inertial Sensor Fusion Techniques for GNSS-Resilient Naviga
+P0119,C5,1.0,0.5,1.0,0.5,1.0,4.0,Towards Consistent Visual-Inertial Navigation for Unmanned Aerial Vehicles using
+P0120,C2,1.0,0.5,1.0,1.0,1.0,4.5,UAV Navigation With Monocular Visual Inertial Odometry Under GNSS-Denied Environ
+P0128,C1,1.0,0.5,1.0,0.5,0.5,3.5,Virtual Stereo Vision-Based Localization and 3D Mesh Mapping for Dual UAV System
+P0173,C1,1.0,1.0,0.0,0.5,0.5,3.0,LiDAR-Visual-Inertial Fusion Architectures for GNSS-Resilient Aerial Navigation:
+P0211,C5,1.0,0.5,1.0,0.5,0.5,3.5,1D-LRF Aided Visual-Inertial Odometry for High-Altitude MAV Flight
+P0225,C3,1.0,0.5,1.0,0.5,0.5,3.5,Loose Coupled Initialization Method for Visual Inertial Navigation in Outdoor Lo
+P0251,C2,1.0,1.0,1.0,0.0,0.5,3.5,REFLoc: A Resilient Evolutionary Fusion Framework for Robust Indoor Localization
+P0335,C2,1.0,1.0,1.0,0.5,0.5,4.0,Resilient Vision-Inertial Fusion Algorithm Based on the Depth of Feature Point
+P0374,C1,1.0,1.0,1.0,0.5,1.0,4.5,Error-State Kalman Filter based Visual-Inertial Odometry Using Orientation Measu
+P0381,C6,1.0,0.5,1.0,0.0,0.5,3.0,Autonomous Navigation Algorithm of Monocular UAV Based on Depth Estimation and R
+P0425,C6,1.0,1.0,1.0,0.5,0.5,4.0,A UAV-Based Aircraft Surface Defect Inspection System via External Constraints a
+P0565,C6,1.0,0.5,1.0,0.5,0.5,3.5,High-Altitude Visual Feature-Based Multi-Sensor Tightly Coupled Pose Estimation
+P0584,C2,1.0,1.0,1.0,0.5,0.5,4.0,Confidence Factor-Based Robust Localization Algorithm With Visual-Inertial-LiDAR
+P0613,C2,1.0,0.5,1.0,0.5,0.5,3.5,Optimal Navigation and Obstacle Avoidance for UAV in Urban Canyons
+P0434,C1,1.0,0.5,1.0,0.0,0.5,3.0,LM-VINS: A Lightweight Magnetic-Assisted Visual-Inertial Navigation System for U

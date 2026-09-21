@@ -1,9 +1,9 @@
 id,title,year,venue,doi,pdf_retrieved,in_final_corpus
-P0002,"A Real-time Framework for UAV Indoor Self-Positioning and 3D Mapping Base on 2D Lidar, Stereo Camera and IMU",2023,Proceedings of the 2023 IEEE International Conference on Real-Time Computing and,10.1109/rcar58764.2023.10249971,N (EXC-8),N
-P0005,Robust UAV Localization in GNSS-Denied Environments via Efficient Visual Scene Matching-Inertial Fusion,2025,2025 6th International Conference on Computers and Artificial Intelligence Techn,10.1109/cait68620.2025.11424858,N (EXC-8),N
-P0007,PO-GVINS: A Tightly Coupled GNSS-Visual-Inertial Navigation Framework Using Pose-Only Representation,2025,IEEE Robotics and Automation Letters,10.1109/lra.2025.3606792,N (EXC-8),N
+P0002,"A Real-time Framework for UAV Indoor Self-Positioning and 3D Mapping Base on 2D Lidar, Stereo Camera and IMU",2023,Proceedings of the 2023 IEEE International Conference on Real-Time Computing and,10.1109/rcar58764.2023.10249971,Y,Y
+P0005,Robust UAV Localization in GNSS-Denied Environments via Efficient Visual Scene Matching-Inertial Fusion,2025,2025 6th International Conference on Computers and Artificial Intelligence Techn,10.1109/cait68620.2025.11424858,Y,Y
+P0007,PO-GVINS: A Tightly Coupled GNSS-Visual-Inertial Navigation Framework Using Pose-Only Representation,2025,IEEE Robotics and Automation Letters,10.1109/lra.2025.3606792,Y,N
 P0010,An Autonomous Visual-Inertial-Based Navigation System for Quadrotor,2021,Lecture Notes in Electrical Engineering,10.1007/978-981-15-8458-9_43,Y,N
-P0016,GeoVINS: Geographic-Visual-Inertial Navigation System for Large-Scale Drift-Free Aerial State Estimation,2025,IEEE Transactions on Robotics,10.1109/tro.2025.3613467,N (EXC-8),N
+P0016,GeoVINS: Geographic-Visual-Inertial Navigation System for Large-Scale Drift-Free Aerial State Estimation,2025,IEEE Transactions on Robotics,10.1109/tro.2025.3613467,Y,Y
 P0018,Tightly-coupled Fusion of Global Positional Measurements in Optimization-based Visual-Inertial Odometry,2020,IEEE International Conference on Intelligent Robots and Systems,10.1109/iros45743.2020.9341697,Y,Y
 P0019,Dense 3D-reconstruction from monocular image sequences for computationally constrained UAS,2021,"Proceedings - 2021 IEEE Winter Conference on Applications of Computer Vision, WA",10.1109/wacv48630.2021.00186,Y,N
 P0020,Development of Unmanned Aerial Vehicle Navigation and Warehouse Inventory System Based on Reinforcement Learning,2024,Drones,10.3390/drones8060220,Y,N
@@ -11,37 +11,33 @@ P0021,Visual-inertial-actuator odometry for multirotor UAVs with rotor drag and 
 P0023,Stereo visual-inertial fusion for UAV state estimation,2020,IFAC-PapersOnLine,10.1016/j.ifacol.2020.12.2412,Y,Y
 P0026,Information sparsification for visual-inertial odometry by manipulating Bayes tree,2021,Aerospace Science and Technology,10.1016/j.ast.2021.107065,Y,Y
 P0027,Visual-inertial odometry with robust initialization and online scale estimation,2018,Sensors (Switzerland),10.3390/s18124287,Y,Y
-P0029,Distance gradient integrated monocular visual-inertial-UWB tightly coupled localization approach; [融合距离梯度的单目视觉-惯性-UWB 紧耦,2025,Kongzhi yu Juece/Control and Decision,10.13195/j.kzyjc.2024.1444,N (EXC-8),N
 P0030,Run Your Visual-Inertial Odometry on NVIDIA Jetson: Benchmark Tests on a Micro Aerial Vehicle,2021,IEEE Robotics and Automation Letters,10.1109/lra.2021.3075141,Y,N
-P0031,Position Uncertainty Reduction in Visual-Inertial Navigation Systems Using Multi-ML Error Compensation,2024,Proceedings of the International Technical Meeting of the Satellite Division of ,10.33012/2024.19790,N (EXC-8),N
+P0031,Position Uncertainty Reduction in Visual-Inertial Navigation Systems Using Multi-ML Error Compensation,2024,Proceedings of the International Technical Meeting of the Satellite Division of ,10.33012/2024.19790,Y,Y
 P0032,Multi-sensor fusion for unmanned aerial vehicles based on the combination of filtering and optimization; [结合滤波与优化的无人机多传感,2020,Scientia Sinica Informationis,10.1360/ssi-2019-0237,Y,N
 P0034,A Visual-Inertial Localization Method Based on Motion Feature Constraints,2025,Lecture Notes in Electrical Engineering,10.1007/978-981-96-2204-7_7,N (EXC-8),N
 P0035,Lidar-VIO Based Mapping of Elevator Shaft with UAV for Verification of Spatial Dimensions,2023,"6th International Conference on Electrical Engineering and Green Energy, CEEGE 2",10.1109/ceege58447.2023.10246629,N (EXC-8),N
-P0036,GO-SLAM: GPS-Aided Visual-Inertial SLAM for Adaptive UAV Navigation in Outdoor-Indoor Environments,2025,IEEE Transactions on Instrumentation and Measurement,10.1109/tim.2025.3538081,N (EXC-8),N
+P0036,GO-SLAM: GPS-Aided Visual-Inertial SLAM for Adaptive UAV Navigation in Outdoor-Indoor Environments,2025,IEEE Transactions on Instrumentation and Measurement,10.1109/tim.2025.3538081,Y,Y
 P0037,Adaptive Covariance and Quaternion-Focused Hybrid Error-State EKF/UKF for Visual-Inertial Odometry,2025,International Journal of Computational Intelligence Systems,10.1007/s44196-025-00942-0,Y,Y
 P0039,R-LVIO: Resilient LiDAR-Visual-Inertial Odometry for UAVs in GNSS-denied Environment,2024,Drones,10.3390/drones8090487,Y,Y
-P0042,Efficient Visual-Inertial Navigation with Point-Plane Map,2023,2023 IEEE International Conference on Robotics and Automation (ICRA),10.1109/icra48891.2023.10160393,N (EXC-8),N
-P0044,Multi-Sensor Fusion Framework Based on GPS State Detection,2023,Proceedings of the 2nd Conference on Fully Actuated System Theory and Applicatio,10.1109/cfasta57821.2023.10243321,N (EXC-8),N
-P0048,A Distributed SLAM with UWB-VIO Fusion Framework for Enhanced Relative Localization of Multi-UAVs System,2023,"2023 4th International Conference on Computer Vision, Image and Deep Learning, C",10.1109/cvidl58838.2023.10166845,N (EXC-8),N
-P0049,A 2D Georeferenced Map Aided Visual-Inertial System for Precise UAV Localization,2022,IEEE International Conference on Intelligent Robots and Systems,10.1109/iros47612.2022.9982254,N (EXC-8),N
-P0050,A Semantic Information Aided Visual/Inertial Fusion Localization Method of UAV; [一种基于语义信息辅助的无人机视觉/惯性融合定位方法],2022,Navigation Positioning and Timing,10.19306/j.cnki.2095-8110.2022.04.007,Y,N
-P0052,An Adaptive Approach based on Multi-State Constraint Kalman Filter for UAVs,2021,"International Conference on Control, Automation and Systems",10.23919/iccas52745.2021.9649897,N (EXC-8),N
+P0042,Efficient Visual-Inertial Navigation with Point-Plane Map,2023,2023 IEEE International Conference on Robotics and Automation (ICRA),10.1109/icra48891.2023.10160393,Y,Y
+P0044,Multi-Sensor Fusion Framework Based on GPS State Detection,2023,Proceedings of the 2nd Conference on Fully Actuated System Theory and Applicatio,10.1109/cfasta57821.2023.10243321,Y,Y
+P0048,A Distributed SLAM with UWB-VIO Fusion Framework for Enhanced Relative Localization of Multi-UAVs System,2023,"2023 4th International Conference on Computer Vision, Image and Deep Learning, C",10.1109/cvidl58838.2023.10166845,Y,Y
+P0049,A 2D Georeferenced Map Aided Visual-Inertial System for Precise UAV Localization,2022,IEEE International Conference on Intelligent Robots and Systems,10.1109/iros47612.2022.9982254,Y,Y
+P0052,An Adaptive Approach based on Multi-State Constraint Kalman Filter for UAVs,2021,"International Conference on Control, Automation and Systems",10.23919/iccas52745.2021.9649897,Y,Y
 P0053,Vision-guided unmanned aerial system for rapid multiple-type damage detection and localization,2023,Structural Health Monitoring,10.1177/14759217221084878,Y,N
-P0055,Getting Started with a Simple Visual-Inertial Odometry,2024,"2024 22nd International Conference on Research and Education in Mechatronics, RE",10.1109/rem63063.2024.10735689,N (EXC-8),N
-P0056,Tightly-coupled stereo visual-inertial-LiDAR SLAM based on graph optimization; [基于图优化的紧耦合双目视觉/惯性/激光雷达SLAM方法],2022,Cehui Xuebao/Acta Geodaetica et Cartographica Sinica,10.11947/j.agcs.2022.20210503,Y,N
+P0055,Getting Started with a Simple Visual-Inertial Odometry,2024,"2024 22nd International Conference on Research and Education in Mechatronics, RE",10.1109/rem63063.2024.10735689,Y,Y
 P0067,Sensing and control of a quadrotor using a visual inertial fusion method,2015,"ICCAS 2015 - 2015 15th International Conference on Control, Automation and Syste",10.1109/iccas.2015.7364912,Y,Y
 P0068,A Localization Strategy for Low-cost UAVs Sewers Inspection,2026,"2026 IEEE/SICE International Symposium on System Integration, SII 2026",10.1109/sii64115.2026.11404663,N (EXC-8),N
-P0069,A monocular visual-inertial odometry for low-altitude aircrafts with depth optimization assisted by range measurements; ,2024,Navigation Positioning and Timing,10.19306/j.cnki.2095-8110.2024.06.008,N (EXC-8),N
-P0070,"Localization, Planning, and Control of a UAV for Rapid Complete Coverage Bridge Inspection in Large-Scale Intermittent G",2024,IEEE Transactions on Control Systems Technology,10.1109/tcst.2024.3366695,N (EXC-8),N
-P0071,Resilient Navigation for UAVs: GNSS Attack Detection and Seamless Transition to Visual-Inertial Localization,2025,"Proceedings of 2025 IEEE 22nd India Council International Conference, INDICON 20",10.1109/indicon68490.2025.11392970,N (EXC-8),N
-P0072,A monocular inertial UAV SLAM algorithm leveraging feature clustering,2024,Proceedings - 2024 16th International Conference on Intelligent Human-Machine Sy,10.1109/ihmsc62065.2024.00020,N (EXC-8),N
-P0075,Comparison of Visual-Inertial Sensor Fusion Techniques for GNSS-Resilient Navigation,2024,AIAA/IEEE Digital Avionics Systems Conference - Proceedings,10.1109/dasc62030.2024.10748659,N (EXC-8),N
-P0077,Research on Sensor Data Spatiotemporal Synchronization Technology for Onboard Visual Navigation Systems,2025,"2025 IEEE 5th International Conference on Power, Electronics and Computer Applic",10.1109/icpeca63937.2025.10928832,N (EXC-8),N
+P0070,"Localization, Planning, and Control of a UAV for Rapid Complete Coverage Bridge Inspection in Large-Scale Intermittent G",2024,IEEE Transactions on Control Systems Technology,10.1109/tcst.2024.3366695,Y,Y
+P0071,Resilient Navigation for UAVs: GNSS Attack Detection and Seamless Transition to Visual-Inertial Localization,2025,"Proceedings of 2025 IEEE 22nd India Council International Conference, INDICON 20",10.1109/indicon68490.2025.11392970,Y,N
+P0072,A monocular inertial UAV SLAM algorithm leveraging feature clustering,2024,Proceedings - 2024 16th International Conference on Intelligent Human-Machine Sy,10.1109/ihmsc62065.2024.00020,Y,Y
+P0075,Comparison of Visual-Inertial Sensor Fusion Techniques for GNSS-Resilient Navigation,2024,AIAA/IEEE Digital Avionics Systems Conference - Proceedings,10.1109/dasc62030.2024.10748659,Y,Y
+P0077,Research on Sensor Data Spatiotemporal Synchronization Technology for Onboard Visual Navigation Systems,2025,"2025 IEEE 5th International Conference on Power, Electronics and Computer Applic",10.1109/icpeca63937.2025.10928832,Y,N
 P0079,Stereo Visual Inertial Odometry for Unmanned Aerial Vehicle Autonomous Flight,2020,Lecture Notes in Electrical Engineering,10.1007/978-981-32-9686-2_62,N (EXC-8),N
 P0080,Visual-inertial positioning method based on priori feature map matching constraints; [基于先验特征地图匹配约束的视觉/惯性定位方法],2022,Zhongguo Guanxing Jishu Xuebao/Journal of Chinese Inertial Technology,10.13695/j.cnki.12-1222/o3.2022.01.007,Y,N
 P0083,Quick Initialization Method of Monocular VIO on MAV,2024,Lecture Notes in Electrical Engineering,10.1007/978-981-97-3336-1_22,N (EXC-8),N
-P0084,A Comparative Analysis of Hybrid Sensor Fusion Schemes for Visual-Inertial Navigation,2025,IEEE Transactions on Instrumentation and Measurement,10.1109/tim.2025.3555758,N (EXC-8),N
-P0086,Integrated Resonant Beam and VIO for UAV Position and Attitude Sensing in Air-Ground Vehicular Network,2025,IEEE Transactions on Vehicular Technology,10.1109/tvt.2025.3628254,N (EXC-8),N
+P0084,A Comparative Analysis of Hybrid Sensor Fusion Schemes for Visual-Inertial Navigation,2025,IEEE Transactions on Instrumentation and Measurement,10.1109/tim.2025.3555758,Y,Y
+P0086,Integrated Resonant Beam and VIO for UAV Position and Attitude Sensing in Air-Ground Vehicular Network,2025,IEEE Transactions on Vehicular Technology,10.1109/tvt.2025.3628254,Y,Y
 P0087,TSFNet: A Two-Stage Fusion Network for Visual–Inertial Odometry,2025,Mathematics,10.3390/math13233842,Y,Y
 P0089,Autonomous navigation of micro aerial vehicles using high-rate and low-cost sensors,2018,AUTONOMOUS ROBOTS,10.1007/s10514-017-9690-5,Y,Y
 P0096,Train of Autonomous Aerial Vehicles for Subterranean Exploration with SLAM Capabilities,2025,"AIAA Science and Technology Forum and Exposition, AIAA SciTech Forum 2025",10.2514/6.2025-2067,N (EXC-8),N
@@ -54,180 +50,182 @@ P0105,An Online Calibration 2-DoF Attitude and Height State Estimator,2020,"Chin
 P0106,Indoor UAV navigation using event cameras and intermediate frame reconstruction,2026,Computer Vision and Image Understanding,10.1016/j.cviu.2026.104650,Y,Y
 P0108,Visual Inertial Navigation for a Small UAV Using Sparse and Dense Optical Flow,2019,"2019 International Workshop on Research, Education and Development on Unmanned A",10.1109/reduas47371.2019.8999672,Y,Y
 P0115,UAV–UGV Collaborative Localization in GNSS-Denied Large-Scale Environments: An Anchor-Free VIO–UWB Fusion with Adaptive ,2026,Drones,10.3390/drones10030175,Y,Y
-P0116,Cooperative UAV navigation using inter-vehicle ranging and magnetic anomaly measurements,2018,"AIAA Guidance, Navigation, and Control Conference, 2018",10.2514/6.2018-1595,Y,Y
-P0118,Event-Based Visual/Inertial Odometry for UAV Indoor Navigation,2025,Sensors,10.3390/s25010061,N (EXC-8),N
-P0119,Towards Consistent Visual-Inertial Navigation for Unmanned Aerial Vehicles using Depth Information,2022,Canadian Conference on Electrical and Computer Engineering,10.1109/ccece49351.2022.9918398,N (EXC-8),N
-P0120,UAV Navigation With Monocular Visual Inertial Odometry Under GNSS-Denied Environment,2023,IEEE Transactions on Geoscience and Remote Sensing,10.1109/tgrs.2023.3323519,N (EXC-8),N
+P0116,Cooperative UAV navigation using inter-vehicle ranging and magnetic anomaly measurements,2018,"AIAA Guidance, Navigation, and Control Conference, 2018",10.2514/6.2018-1595,Y,N
+P0118,Event-Based Visual/Inertial Odometry for UAV Indoor Navigation,2025,Sensors,10.3390/s25010061,Y,Y
+P0119,Towards Consistent Visual-Inertial Navigation for Unmanned Aerial Vehicles using Depth Information,2022,Canadian Conference on Electrical and Computer Engineering,10.1109/ccece49351.2022.9918398,Y,Y
+P0120,UAV Navigation With Monocular Visual Inertial Odometry Under GNSS-Denied Environment,2023,IEEE Transactions on Geoscience and Remote Sensing,10.1109/tgrs.2023.3323519,Y,Y
 P0122,GPLVINS: Tightly Coupled GNSS-Visual-Inertial Fusion for Consistent State Estimation with Point and Line Features for Un,2025,Drones,10.3390/drones9110801,Y,Y
 P0124,Latency compensated visual-inertial odometry for agile autonomous flight,2020,Sensors (Switzerland),10.3390/s20082209,Y,Y
 P0125,A Localization and Trajectory Planning Method for UAVs with Visual-Inertial Odometry,2022,"IEEE/ASME International Conference on Advanced Intelligent Mechatronics, AIM",10.1109/aim52237.2022.9863253,Y,N
-P0128,Virtual Stereo Vision-Based Localization and 3D Mesh Mapping for Dual UAV Systems,2025,"IEEE International Conference on Robotics and Biomimetics, ROBIO",10.1109/robio66223.2025.11378261,N (EXC-8),N
+P0128,Virtual Stereo Vision-Based Localization and 3D Mesh Mapping for Dual UAV Systems,2025,"IEEE International Conference on Robotics and Biomimetics, ROBIO",10.1109/robio66223.2025.11378261,Y,Y
 P0130,LiDAR-Based Visual Inertial Odometry for High Altitude UAV,2025,Lecture Notes in Electrical Engineering,10.1007/978-981-96-2236-8_40,N (EXC-8),N
 P0131,GNSS-Denied Semi-Direct Visual Navigation for Autonomous UAVs Aided by PI-Inspired Inertial Priors,2023,Aerospace,10.3390/aerospace10030220,Y,Y
-P0133,A Method for Measuring the Error Rules in Visual Inertial Odometry Based on Scene Matching Corrections,2024,Micromachines,10.3390/mi15111362,Y,Y
-P0134,Hybrid Vision-Inertial Fusion for End-to-End UAV Control in Simulation,2025,Proceedings - 2025 IEEE International Conference on Future Machine Learning and ,10.1109/fmlds67896.2025.00090,N (EXC-8),N
-P0135,Autonomous exploration of visually-degraded environments using aerial robots,2017,"2017 International Conference on Unmanned Aircraft Systems, ICUAS 2017",10.1109/icuas.2017.7991510,Y,Y
+P0133,A Method for Measuring the Error Rules in Visual Inertial Odometry Based on Scene Matching Corrections,2024,Micromachines,10.3390/mi15111362,Y,N
+P0135,Autonomous exploration of visually-degraded environments using aerial robots,2017,"2017 International Conference on Unmanned Aircraft Systems, ICUAS 2017",10.1109/icuas.2017.7991510,Y,N
 P0139,Efficient SLAM Algorithm Based on Quaternions for Real-Time Navigation of Unmanned Aerial Vehicles,2026,Transactions on Emerging Telecommunications Technologies,10.1002/ett.70386,N (EXC-8),N
 P0143,An Autonomous Multimodal System for Intelligent Railway Inspection,2025,Proceedings of the Annual Conference of the Prognostics and Health Management So,10.36001/phmconf.2025.v17i1.4319,Y,N
 P0147,Online Dynamic Model Calibration for Reliable Control of Quadrotor Based on Factor Graph Optimization,2025,IEEE Transactions on Aerospace and Electronic Systems,10.1109/taes.2025.3566347,Y,N
-P0149,Event-combined Visual-inertial Odometry Using Point and Line Features; [融合事件的点线特征法视觉惯性里程计],2024,Binggong Xuebao/Acta Armamentarii,10.12382/bgxb.2023.1221,N (EXC-8),N
-P0153,A Visual-Inertial Navigation Coupled Localization Method Based on Adaptive Point-Line Feature Extraction,2023,IEEE Sensors Journal,10.1109/jsen.2023.3312731,N (EXC-8),N
+P0153,A Visual-Inertial Navigation Coupled Localization Method Based on Adaptive Point-Line Feature Extraction,2023,IEEE Sensors Journal,10.1109/jsen.2023.3312731,Y,Y
 P0164,Robust visual-inertial odometry with point and line features for blade inspection UAV,2020,Industrial Robot,10.1108/ir-01-2020-0009,N (EXC-8),N
-P0165,Navigation Algorithm of Light UAV Based on Stereo Visual Inertial Navigation Odometer; [基于双目视觉-惯性导航的轻型无人机导航算法],2020,Binggong Xuebao/Acta Armamentarii,10.3969/j.issn.1000-1093.2020.s2.032,N (EXC-8),N
 P0167,GNSS-denied UAV indoor navigation with UWB incorporated visual inertial odometry,2023,Measurement: Journal of the International Measurement Confederation,10.1016/j.measurement.2022.112256,Y,Y
 P0172,HCCNet: Hybrid Coupled Cooperative Network for Robust Indoor Localization,2024,ACM Transactions on Sensor Networks,10.1145/3665645,Y,Y
-P0173,LiDAR-Visual-Inertial Fusion Architectures for GNSS-Resilient Aerial Navigation: Performance Assessment,2025,AIAA/IEEE Digital Avionics Systems Conference - Proceedings,10.1109/dasc66011.2025.11257343,N (EXC-8),N
-P0175,A UAV inertial location method based on pixel matching of 2D satellite maps; [二维卫星地图像素匹配的无人机视惯定位方法],2024,Zhongguo Guanxing Jishu Xuebao/Journal of Chinese Inertial Technology,10.13695/j.cnki.12-1222/o3.2024.11.003,N (EXC-8),N
+P0173,LiDAR-Visual-Inertial Fusion Architectures for GNSS-Resilient Aerial Navigation: Performance Assessment,2025,AIAA/IEEE Digital Avionics Systems Conference - Proceedings,10.1109/dasc66011.2025.11257343,Y,Y
 P0176,Photometric Visual-Inertial Navigation with Uncertainty-Aware Ensembles,2022,IEEE Transactions on Robotics,10.1109/tro.2021.3139964,Y,Y
-P0177,Enhancing UAV Autonomy and Path Optimization Through SBAS and Visual-Inertial Odometry; [Mejora de la autonomía de UAV y,2026,Ingenieria e Investigacion,10.15446/ing.investig.119122,Y,Y
+P0177,Enhancing UAV Autonomy and Path Optimization Through SBAS and Visual-Inertial Odometry; [Mejora de la autonomía de UAV y,2026,Ingenieria e Investigacion,10.15446/ing.investig.119122,Y,N
 P0178,Fusion of Visual-Inertial Odometry With LiDAR Relative Localization for Cooperative Guidance of a Micro-Scale Aerial Veh,2026,IEEE Access,10.1109/access.2026.3666998,Y,Y
 P0181,A robust fault-tolerant control algorithm for GPS-denied mini quadrotors using PID-TinyMPC and visual-inertial odometry,2026,Control Engineering Practice,10.1016/j.conengprac.2026.106779,Y,N
 P0182,Monocular visual-inertial SLAM for fixed-wing UAVs using sliding window based nonlinear optimization,2016,Lecture Notes in Computer Science (including subseries Lecture Notes in Artifici,10.1007/978-3-319-50835-1_51,Y,Y
 P0185,Perception-Aware Receding Horizon Trajectory Planning for Multicopters With Visual-Inertial Odometry,2022,IEEE Access,10.1109/access.2022.3200342,Y,N
 P0187,An Indoor UAV Localization Framework with ESKF Tightly-Coupled Fusion and Multi-Epoch UWB Outlier Rejection,2025,Sensors,10.3390/s25247673,Y,Y
 P0188,REVIO: Range- and Event-Based Visual-Inertial Odometry for Bio-Inspired Sensors,2022,Biomimetics,10.3390/biomimetics7040169,Y,Y
-P0190,Multi-feature Fusion-based Pose Estimation Method for UAVs in Orchards; [基于多特征融合的果园无人机位姿估计方法],2026,Nongye Jixie Xuebao/Transactions of the Chinese Society for Agricultural Machine,10.6041/j.issn.1000-1298.2026.04.001,N (EXC-8),N
 P0191,Real-Time UAV 3D Image Point Clouds Mapping,2023,"ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Scien",10.5194/isprs-annals-x-1-w1-2023-1097-2023,Y,N
-P0195,Active Heading Planning for Improving Visual-Inertial Odometry,2024,"2024 International Conference on Unmanned Aircraft Systems, ICUAS 2024",10.1109/icuas60882.2024.10556967,N (EXC-8),N
+P0195,Active Heading Planning for Improving Visual-Inertial Odometry,2024,"2024 International Conference on Unmanned Aircraft Systems, ICUAS 2024",10.1109/icuas60882.2024.10556967,Y,N
 P0196,"AIVIO: Closed-Loop, Object-Relative Navigation of UAVs With AI-Aided Visual Inertial Odometry",2024,IEEE Robotics and Automation Letters,10.1109/lra.2024.3479713,Y,Y
 P0197,UAV navigation in large-scale GPS-denied bridge environments using fiducial marker-corrected stereo visual-inertial loca,2023,Automation in Construction,10.1016/j.autcon.2023.105139,Y,Y
 P0202,PLI-VIO: Real-time Monocular Visual-inertial Odometry Using Point and Line Interrelated Features,2023,"International Journal of Control, Automation and Systems",10.1007/s12555-022-0210-9,Y,Y
 P0204,Gateway Crossing Method for Unmanned Aerial Vehicles Based on Lightweight Corner-Assisted Localization and Visual-Inerti,2023,"Proceedings - 2023 2nd International Conference on Machine Learning, Cloud Compu",10.1109/mlccim60412.2023.00032,N (EXC-8),N
 P0206,NaviLoc: Trajectory-Level Visual Localization for GNSS-Denied UAV Navigation,2026,Drones,10.3390/drones10020097,Y,N
 P0208,UAV Sensor Data Fusion for Localization Using Adaptive Multiscale Feature Matching Mechanisms Under GPS-Deprived Environ,2025,Aerospace,10.3390/aerospace12121048,Y,Y
-P0209,Localization through RGB-D Camera for the Quad-rotor,2024,2024 15th International Conference on Computing Communication and Networking Tec,10.1109/icccnt61001.2024.10725903,N (EXC-8),N
-P0211,1D-LRF Aided Visual-Inertial Odometry for High-Altitude MAV Flight,2022,2022 International Conference on Robotics and Automation (ICRA),10.1109/icra46639.2022.9811757,N (EXC-8),N
+P0209,Localization through RGB-D Camera for the Quad-rotor,2024,2024 15th International Conference on Computing Communication and Networking Tec,10.1109/icccnt61001.2024.10725903,Y,N
+P0211,1D-LRF Aided Visual-Inertial Odometry for High-Altitude MAV Flight,2022,2022 International Conference on Robotics and Automation (ICRA),10.1109/icra46639.2022.9811757,Y,Y
 P0213,Optimization and Acceleration of Visual-Inertial Navigation System for UAVs Based on Heterogeneous Computing Architectur,2026,Lecture Notes in Electrical Engineering,10.1007/978-981-95-4053-2_48,N (EXC-8),N
 P0214,Multimodal Visual Navigation of Unmanned Aerial Vehicles Using Satellite Maps and Thermal Imaging Cameras,2025,Russian Aeronautics,10.3103/s106879982504004x,Y,N
 P0216,Visual-Inertial Image-Odometry Network (VIIONet): A Gaussian process regression-based deep architecture proposal for UAV,2022,Measurement: Journal of the International Measurement Confederation,10.1016/j.measurement.2022.111030,Y,Y
 P0217,SIMSF: A Scale Insensitive Multi-Sensor Fusion Framework for Unmanned Aerial Vehicles Based on Graph Optimization,2020,IEEE Access,10.1109/access.2020.3000555,Y,Y
 P0223,Kinematically-Constrained Joint Pose Estimation of a UAS and Non-Cooperative Moving Platform,2026,"AIAA Science and Technology Forum and Exposition, AIAA SciTech Forum 2026",10.2514/6.2026-2173,N (EXC-8),N
-P0225,Loose Coupled Initialization Method for Visual Inertial Navigation in Outdoor Low Altitude Flight Environment,2021,"2021 6th International Conference on Robotics and Automation Engineering, ICRAE ",10.1109/icrae53653.2021.9657780,N (EXC-8),N
-P0226,Uncrewed system localization using deliberate thermal features,2025,Proceedings of SPIE - The International Society for Optical Engineering,10.1117/12.3053910,Y,Y
+P0225,Loose Coupled Initialization Method for Visual Inertial Navigation in Outdoor Low Altitude Flight Environment,2021,"2021 6th International Conference on Robotics and Automation Engineering, ICRAE ",10.1109/icrae53653.2021.9657780,Y,Y
+P0226,Uncrewed system localization using deliberate thermal features,2025,Proceedings of SPIE - The International Society for Optical Engineering,10.1117/12.3053910,Y,N
 P0228,Accurate IMU Factor Using Switched Linear Systems for VIO,2021,IEEE Transactions on Industrial Electronics,10.1109/tie.2020.3000097,Y,Y
 P0229,Visual Inertial Navigation Optimization Method Based on Landmark Recognition,2024,Communications in Computer and Information Science,10.1007/978-981-97-0885-7_18,N (EXC-8),N
 P0231,High-Altitude Precision Landing by Smartphone Video Guidance Sensor and Sensor Fusion,2024,Drones,10.3390/drones8020037,Y,N
 P0239,ESLS: A Vision-Based Emergency Safe Landing System for UAVs,2025,Procedia Computer Science,10.1016/j.procs.2025.10.206,Y,N
 P0245,Visual-Inertial Navigation Algorithm Development Using Photorealistic Camera Simulation in the Loop,2018,Proceedings - IEEE International Conference on Robotics and Automation,10.1109/icra.2018.8460692,Y,Y
-P0246,Indoor positioning technology of multi⁃rotor flying robot based on visual-inertial fusion; [视 觉 与 惯 性 融 合 的 多 旋 翼 飞 行 机 ,2023,Hangkong Xuebao/Acta Aeronautica et Astronautica Sinica,10.7527/s1000-6893.2022.26964,N (EXC-8),N
 P0250,Robust Multi-Sensor Navigation in GNSS Degraded Environments,2023,"AIAA SciTech Forum and Exposition, 2023",10.2514/6.2023-2242,N (EXC-8),N
-P0251,REFLoc: A Resilient Evolutionary Fusion Framework for Robust Indoor Localization,2024,IEEE Transactions on Instrumentation and Measurement,10.1109/tim.2024.3403196,N (EXC-8),N
+P0251,REFLoc: A Resilient Evolutionary Fusion Framework for Robust Indoor Localization,2024,IEEE Transactions on Instrumentation and Measurement,10.1109/tim.2024.3403196,Y,Y
 P0252,Employing smartphone as on-board navigator in unmanned aerial vehicles: Implementation and experiments,2015,Industrial Robot,10.1108/ir-01-2015-0016,Y,N
-P0256,UAV Visual-Inertial Dynamics (VI-D) Odometry using Unscented Kalman Filter,2021,IFAC-PapersOnLine,10.1016/j.ifacol.2021.11.272,N (EXC-8),N
-P0257,SBC-SLAM: Semantic Bioinspired Collaborative SLAM for Large-Scale Environment Perception of Heterogeneous Systems,2024,IEEE Transactions on Instrumentation and Measurement,10.1109/tim.2024.3385825,N (EXC-8),N
+P0256,UAV Visual-Inertial Dynamics (VI-D) Odometry using Unscented Kalman Filter,2021,IFAC-PapersOnLine,10.1016/j.ifacol.2021.11.272,Y,Y
+P0257,SBC-SLAM: Semantic Bioinspired Collaborative SLAM for Large-Scale Environment Perception of Heterogeneous Systems,2024,IEEE Transactions on Instrumentation and Measurement,10.1109/tim.2024.3385825,Y,N
 P0262,Transformer Based Visual Inertial Odometry,2025,Lecture Notes in Electrical Engineering,10.1007/978-981-96-2264-1_54,N (EXC-8),N
-P0265,Research on High-Precision 3D Positioning and Map Construction Technology of Unmanned Aerial Vehicles in GIS Environment,2025,"Proceedings - 2nd International Conference on Computer Communication, Networks a",10.1109/ccnis69465.2025.00010,N (EXC-8),N
+P0265,Research on High-Precision 3D Positioning and Map Construction Technology of Unmanned Aerial Vehicles in GIS Environment,2025,"Proceedings - 2nd International Conference on Computer Communication, Networks a",10.1109/ccnis69465.2025.00010,Y,N
 P0266,Precision Landing of a Quadcopter Drone by Smartphone Video Guidance Sensor in a GPS-Denied Environment,2023,Sensors,10.3390/s23041934,Y,N
-P0268,An Improved Image Stitching Method Based on Vision-Inertial Fusion,2024,Conference Record - IEEE Instrumentation and Measurement Technology Conference,10.1109/i2mtc60896.2024.10560768,N (EXC-8),N
-P0271,Multiview Landmark-Assisted UAV Swarm 6-DoF Pose Estimation Using Resonant Beam and VIO,2025,IEEE Internet of Things Journal,10.1109/jiot.2025.3573755,N (EXC-8),N
+P0268,An Improved Image Stitching Method Based on Vision-Inertial Fusion,2024,Conference Record - IEEE Instrumentation and Measurement Technology Conference,10.1109/i2mtc60896.2024.10560768,Y,N
+P0271,Multiview Landmark-Assisted UAV Swarm 6-DoF Pose Estimation Using Resonant Beam and VIO,2025,IEEE Internet of Things Journal,10.1109/jiot.2025.3573755,Y,Y
 P0272,Autonomous GPU-based UAS for inspection of confined spaces: Application to marine vessel classification,2024,Robotics and Autonomous Systems,10.1016/j.robot.2023.104590,Y,N
 P0277,Visual-Inertial Odometry Using High Flying Altitude Drone Datasets †,2023,Drones,10.3390/drones7010036,Y,N
-P0279,Visual-inertial odometry for unmanned aerial vehicle using deep learning,2019,AIAA Scitech 2019 Forum,10.2514/6.2019-1410,Y,Y
-P0282,MONO-HYDRA: REAL-TIME 3D SCENE GRAPH CONSTRUCTION FROM MONOCULAR CAMERA INPUT WITH IMU,2023,"ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Scien",10.5194/isprs-annals-x-1-w1-2023-439-2023,Y,Y
+P0279,Visual-inertial odometry for unmanned aerial vehicle using deep learning,2019,AIAA Scitech 2019 Forum,10.2514/6.2019-1410,Y,N
+P0282,MONO-HYDRA: REAL-TIME 3D SCENE GRAPH CONSTRUCTION FROM MONOCULAR CAMERA INPUT WITH IMU,2023,"ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Scien",10.5194/isprs-annals-x-1-w1-2023-439-2023,Y,N
 P0283,Derivative-Enhanced Fusion Approach of Camera-IMU-UWB for GNSS-Denied UAV Navigation,2025,Lecture Notes in Electrical Engineering,10.1007/978-981-96-3552-8_36,N (EXC-8),N
-P0284,Quaternion-Based Unscented Kalman Filter for 6-DoF Vision-Based Inertial Navigation in GPS-Denied Regions,2025,IEEE Transactions on Instrumentation and Measurement,10.1109/tim.2024.3509582,N (EXC-8),N
+P0284,Quaternion-Based Unscented Kalman Filter for 6-DoF Vision-Based Inertial Navigation in GPS-Denied Regions,2025,IEEE Transactions on Instrumentation and Measurement,10.1109/tim.2024.3509582,Y,Y
 P0285,Online spatial and temporal calibration for monocular direct visual-inertial odometry,2019,Sensors (Switzerland),10.3390/s19102273,Y,Y
 P0286,VIUNet: Deep Visual-Inertial-UWB Fusion for Indoor UAV Localization,2023,IEEE Access,10.1109/access.2023.3279292,Y,Y
-P0289,Cooperative Visual-Range-Inertial Navigation for Multiple Unmanned Aerial Vehicles,2023,IEEE Transactions on Aerospace and Electronic Systems,10.1109/taes.2023.3297555,N (EXC-8),N
+P0289,Cooperative Visual-Range-Inertial Navigation for Multiple Unmanned Aerial Vehicles,2023,IEEE Transactions on Aerospace and Electronic Systems,10.1109/taes.2023.3297555,Y,Y
 P0290,Research on multi-sensor fusion navigation methods for aerial power operation drones,2025,IET Conference Proceedings,10.1049/icp.2025.2798,N (EXC-8),N
 P0292,Bridge Geometric Shape Measurement Using LiDAR–Camera Fusion Mapping and Learning-Based Segmentation Method,2025,Buildings,10.3390/buildings15091458,Y,N
-P0293,Fast and Robust Semidirect Monocular Visual-Inertial Odometry for UAV,2023,IEEE Sensors Journal,10.1109/jsen.2023.3309907,N (EXC-8),N
+P0293,Fast and Robust Semidirect Monocular Visual-Inertial Odometry for UAV,2023,IEEE Sensors Journal,10.1109/jsen.2023.3309907,Y,Y
 P0294,A cliquey subgraph approach to sparsified UAV visual inertial odometry by surjective Bayes-tree-to-factor-graph mapping,2022,Aerospace Science and Technology,10.1016/j.ast.2021.107250,Y,Y
 P0298,Real-time motion state estimation of feature points based on optical flow field for robust monocular visual-inertial odo,2025,Expert Systems with Applications,10.1016/j.eswa.2025.126813,Y,Y
 P0300,CDSFusion: Dense Semantic SLAM for Indoor Environment Using CPU Computing,2022,Remote Sensing,10.3390/rs14040979,Y,Y
 P0302,Loop Detection Method Based on Neural Radiance Field BoW Model for Visual Inertial Navigation of UAVs,2024,Remote Sensing,10.3390/rs16163038,Y,Y
 P0304,Analysis on the performance of VIO according to Trajectory Planning of UAV,2020,"International Conference on Control, Automation and Systems",10.23919/iccas50221.2020.9268220,Y,N
-P0306,LVIO-GSMAP: Robust LiDAR-Visual-Inertial UAV System With Gaussian Mapping,2025,"2025 5th International Conference on Electronics, Circuits and Information Engin",10.1109/ecie65947.2025.11087050,N (EXC-8),N
+P0306,LVIO-GSMAP: Robust LiDAR-Visual-Inertial UAV System With Gaussian Mapping,2025,"2025 5th International Conference on Electronics, Circuits and Information Engin",10.1109/ecie65947.2025.11087050,Y,N
 P0309,Distributed Variable-Baseline Stereo SLAM from two UAVs,2021,Proceedings - IEEE International Conference on Robotics and Automation,10.1109/icra48506.2021.9560944,Y,Y
 P0313,Development of an Algorithm for Absolute Visual-Inertial Navigation of Unmanned Aerial Vehicles,2025,Russian Aeronautics,10.3103/s1068799825020217,Y,N
 P0315,Direct feature correspondence in vision-aided inertial navigation for unmanned aerial vehicles,2017,"2017 International Conference on Unmanned Aircraft Systems, ICUAS 2017",10.1109/icuas.2017.7991446,Y,Y
 P0316,Range–Visual–Inertial Odometry with Coarse-to-Fine Image Registration Fusion for UAV Localization,2023,Drones,10.3390/drones7080540,Y,Y
-P0319,Multi-unmanned Aerial Vehicle Pose Estimation Based on Visual-inertial-range Sensor Fusion,2023,"Journal of Institute of Control, Robotics and Systems",10.5302/j.icros.2023.23.0135,N (EXC-8),N
 P0321,Onboard real-time dense reconstruction of large-scale environments for UAV,2017,IEEE International Conference on Intelligent Robots and Systems,10.1109/iros.2017.8206189,Y,Y
-P0322,A new visual-inertial odometry scheme for unmanned systems in unified framework of zeroing neural networks,2025,Neurocomputing,10.1016/j.neucom.2024.129017,N (EXC-8),N
+P0322,A new visual-inertial odometry scheme for unmanned systems in unified framework of zeroing neural networks,2025,Neurocomputing,10.1016/j.neucom.2024.129017,Y,Y
 P0326,Landmark-Based Scale Estimation and Correction of Visual Inertial Odometry for VTOL UAVs in a GPS-Denied Environment,2022,Sensors,10.3390/s22249654,Y,Y
-P0327,Viewpoint-Tolerant Place Recognition Combining 2D and 3D Information for UAV Navigation,2018,Proceedings - IEEE International Conference on Robotics and Automation,10.1109/icra.2018.8460786,Y,Y
-P0329,Control-enabled observability in visual-inertial odometry,2017,"2017 International Conference on Unmanned Aircraft Systems, ICUAS 2017",10.1109/icuas.2017.7991364,Y,Y
-P0335,Resilient Vision-Inertial Fusion Algorithm Based on the Depth of Feature Point,2025,IEEE Sensors Journal,10.1109/jsen.2024.3487243,N (EXC-8),N
+P0327,Viewpoint-Tolerant Place Recognition Combining 2D and 3D Information for UAV Navigation,2018,Proceedings - IEEE International Conference on Robotics and Automation,10.1109/icra.2018.8460786,Y,N
+P0329,Control-enabled observability in visual-inertial odometry,2017,"2017 International Conference on Unmanned Aircraft Systems, ICUAS 2017",10.1109/icuas.2017.7991364,Y,N
+P0335,Resilient Vision-Inertial Fusion Algorithm Based on the Depth of Feature Point,2025,IEEE Sensors Journal,10.1109/jsen.2024.3487243,Y,Y
 P0336,Robust thermal-inertial localization for aerial robots: A case for direct methods,2019,"2019 International Conference on Unmanned Aircraft Systems, ICUAS 2019",10.1109/icuas.2019.8798279,Y,Y
 P0337,Fusion of Optical Flow and Dead Reckoning Algorithms for UAV Navigation Without GPS,2025,TransNav,10.12716/1001.19.04.02,Y,Y
-P0338,DeepUKF-VIN: Adaptively-tuned Deep Unscented Kalman Filter for 3D Visual-Inertial Navigation based on IMU-Vision-Net,2025,Expert Systems with Applications,10.1016/j.eswa.2025.126656,N (EXC-8),N
+P0338,DeepUKF-VIN: Adaptively-tuned Deep Unscented Kalman Filter for 3D Visual-Inertial Navigation based on IMU-Vision-Net,2025,Expert Systems with Applications,10.1016/j.eswa.2025.126656,Y,Y
 P0339,LGVINS: LiDAR-GPS-Visual and Inertial System Based Multi-Sensor Fusion for Smooth and Reliable UAV State Estimation,2025,IEEE Transactions on Intelligent Vehicles,10.1109/tiv.2024.3469551,Y,Y
-P0340,UVIO: An UWB-Aided Visual-Inertial Odometry Framework with Bias-Compensated Anchors Initialization,2023,IEEE International Conference on Intelligent Robots and Systems,10.1109/iros55552.2023.10342012,N (EXC-8),N
+P0340,UVIO: An UWB-Aided Visual-Inertial Odometry Framework with Bias-Compensated Anchors Initialization,2023,IEEE International Conference on Intelligent Robots and Systems,10.1109/iros55552.2023.10342012,Y,Y
 P0341,Deployment of Reliable Visual Inertial Odometry Approaches for Unmanned Aerial Vehicles in Real-world Environment,2022,"2022 International Conference on Unmanned Aircraft Systems, ICUAS 2022",10.1109/icuas54217.2022.9836067,Y,Y
 P0345,Dense visual-inertial navigation system for mobile robots,2015,Proceedings - IEEE International Conference on Robotics and Automation,10.1109/icra.2015.7139554,Y,Y
-P0346,GPS-VIO Fusion with Online Rotational Calibration,2024,Proceedings - IEEE International Conference on Robotics and Automation,10.1109/icra57147.2024.10611466,N (EXC-8),N
+P0346,GPS-VIO Fusion with Online Rotational Calibration,2024,Proceedings - IEEE International Conference on Robotics and Automation,10.1109/icra57147.2024.10611466,Y,Y
 P0347,Distributed UAV Swarm Collaborative SLAM Based on Visual-Inertial-Ranging Measurement,2025,Lecture Notes in Electrical Engineering,10.1007/978-981-96-2220-7_18,N (EXC-8),N
-P0349,HVIOnet: A deep learning based hybrid visual–inertial odometry approach for unmanned aerial system position estimation,2022,Neural Networks,10.1016/j.neunet.2022.09.001,N (EXC-8),N
-P0351,Control-enabled Observability and Sensitivity Functions in Visual-Inertial Odometry,2019,Journal of Intelligent and Robotic Systems: Theory and Applications,10.1007/s10846-018-0808-6,Y,Y
-P0352,A Visual/Inertial Relative Navigation Method for UAV Formation,2020,"Proceedings of the 32nd Chinese Control and Decision Conference, CCDC 2020",10.1109/ccdc49329.2020.9164765,Y,Y
+P0349,HVIOnet: A deep learning based hybrid visual–inertial odometry approach for unmanned aerial system position estimation,2022,Neural Networks,10.1016/j.neunet.2022.09.001,Y,Y
+P0351,Control-enabled Observability and Sensitivity Functions in Visual-Inertial Odometry,2019,Journal of Intelligent and Robotic Systems: Theory and Applications,10.1007/s10846-018-0808-6,Y,N
+P0352,A Visual/Inertial Relative Navigation Method for UAV Formation,2020,"Proceedings of the 32nd Chinese Control and Decision Conference, CCDC 2020",10.1109/ccdc49329.2020.9164765,Y,N
 P0355,Research on UAV autonomous positioning system for system engineering; [面向系统工程的无人机自主定位系统研究],2024,Journal of Graphics,10.11996/jg.j.2095-302x.2024020363,Y,N
-P0358,Intelligent perception measurement technology of autonomous UAV for unknown environment; [面向未知环境的自主无人机智能感知测量技术],2024,Cehui Xuebao/Acta Geodaetica et Cartographica Sinica,10.11947/j.agcs.2024.20230389,N (EXC-8),N
 P0361,Robust visual inertial odometry using a direct EKF-based approach,2015,IEEE International Conference on Intelligent Robots and Systems,10.1109/iros.2015.7353389,Y,Y
 P0363,Autonomous Localization and Navigation for Drones Over Rivers,2026,IEEE Access,10.1109/access.2025.3650454,Y,Y
-P0364,Kalman Filter-Based Drift Detection and Mitigation of Visual-Inertial Odometry in UAVs,2025,Proceedings of the American Control Conference,10.23919/acc63710.2025.11107817,N (EXC-8),N
-P0367,Cooperative Navigation and Guidance of a Micro-Scale Aerial Vehicle by an Accompanying UAV using 3D LiDAR Relative Local,2022,"2022 International Conference on Unmanned Aircraft Systems, ICUAS 2022",10.1109/icuas54217.2022.9836116,Y,Y
-P0368,Sensitivity Analysis of a Visual Inertial Odometry-based Navigation System for UAV,2025,Conference Record - IEEE Instrumentation and Measurement Technology Conference,10.1109/i2mtc62753.2025.11079197,N (EXC-8),N
-P0369,Tightly coupled visual inertial odometry based on artificial landmarks,2018,"2018 IEEE International Conference on Information and Automation, ICIA 2018",10.1109/icinfa.2018.8812447,N (EXC-8),N
+P0364,Kalman Filter-Based Drift Detection and Mitigation of Visual-Inertial Odometry in UAVs,2025,Proceedings of the American Control Conference,10.23919/acc63710.2025.11107817,Y,N
+P0367,Cooperative Navigation and Guidance of a Micro-Scale Aerial Vehicle by an Accompanying UAV using 3D LiDAR Relative Local,2022,"2022 International Conference on Unmanned Aircraft Systems, ICUAS 2022",10.1109/icuas54217.2022.9836116,Y,N
+P0368,Sensitivity Analysis of a Visual Inertial Odometry-based Navigation System for UAV,2025,Conference Record - IEEE Instrumentation and Measurement Technology Conference,10.1109/i2mtc62753.2025.11079197,Y,Y
+P0369,Tightly coupled visual inertial odometry based on artificial landmarks,2018,"2018 IEEE International Conference on Information and Automation, ICIA 2018",10.1109/icinfa.2018.8812447,Y,Y
 P0370,Research on UAV-Based Mars Topography Mapping and 3D Reconstruction System,2024,Lecture Notes in Electrical Engineering,10.1007/978-981-97-2116-0_43,N (EXC-8),N
-P0373,Perception-aided Visual-Inertial Integrated Positioning in Dynamic Urban Areas,2020,"2020 IEEE/ION Position, Location and Navigation Symposium, PLANS 2020",10.1109/plans46316.2020.9109963,Y,Y
-P0374,Error-State Kalman Filter based Visual-Inertial Odometry Using Orientation Measurement on Unit Quaternion Group,2024,IEEE International Conference on Intelligent Robots and Systems,10.1109/iros58592.2024.10801565,N (EXC-8),N
+P0373,Perception-aided Visual-Inertial Integrated Positioning in Dynamic Urban Areas,2020,"2020 IEEE/ION Position, Location and Navigation Symposium, PLANS 2020",10.1109/plans46316.2020.9109963,Y,N
+P0374,Error-State Kalman Filter based Visual-Inertial Odometry Using Orientation Measurement on Unit Quaternion Group,2024,IEEE International Conference on Intelligent Robots and Systems,10.1109/iros58592.2024.10801565,Y,Y
 P0375,Virtual Reality Aided High-Quality 3D Reconstruction by Remote Drones,2022,ACM Transactions on Internet Technology,10.1145/3458930,Y,N
 P0377,GOMSF: Graph-Optimization Based Multi-Sensor Fusion for robust UAV Pose estimation,2018,Proceedings - IEEE International Conference on Robotics and Automation,10.1109/icra.2018.8460193,Y,Y
-P0378,C2VIR-SLAM: Centralized Collaborative Visual-Inertial-Range Simultaneous Localization and Mapping,2022,Drones,10.3390/drones6110312,Y,N
-P0381,Autonomous Navigation Algorithm of Monocular UAV Based on Depth Estimation and Robust VIO,2024,"2024 11th International Forum on Electrical Engineering and Automation, IFEEA 20",10.1109/ifeea64237.2024.10878697,N (EXC-8),N
+P0378,C2VIR-SLAM: Centralized Collaborative Visual-Inertial-Range Simultaneous Localization and Mapping,2022,Drones,10.3390/drones6110312,Y,Y
+P0381,Autonomous Navigation Algorithm of Monocular UAV Based on Depth Estimation and Robust VIO,2024,"2024 11th International Forum on Electrical Engineering and Automation, IFEEA 20",10.1109/ifeea64237.2024.10878697,Y,Y
 P0383,Perception in the dark—development of a ToF visual inertial odometry system,2020,Sensors (Switzerland),10.3390/s20051263,Y,Y
-P0385,A Novel Three-Stage Robust Adaptive Filtering Algorithm for Visual-Inertial Odometry in GNSS-Denied Environments,2023,IEEE Sensors Journal,10.1109/jsen.2023.3289313,N (EXC-8),N
-P0388,Toward Aerial Collaborative Stereo: Real-Time Cross-Camera Feature Association and Relative Pose Estimation for UAVs,2025,IEEE Sensors Journal,10.1109/jsen.2025.3532699,N (EXC-8),N
+P0385,A Novel Three-Stage Robust Adaptive Filtering Algorithm for Visual-Inertial Odometry in GNSS-Denied Environments,2023,IEEE Sensors Journal,10.1109/jsen.2023.3289313,Y,N
+P0388,Toward Aerial Collaborative Stereo: Real-Time Cross-Camera Feature Association and Relative Pose Estimation for UAVs,2025,IEEE Sensors Journal,10.1109/jsen.2025.3532699,Y,N
 P0392,Rapid Initialization Method of Unmanned Aerial Vehicle Swarm Based on VIO-UWB in Satellite Denial Environment,2024,Drones,10.3390/drones8070339,Y,N
 P0393,Laser-aided Infrared Visual Inertial Odometry for Unmanned Aerial Vehicle with Multi-plane Constraint,2019,ICARM 2018 - 2018 3rd International Conference on Advanced Robotics and Mechatro,10.1109/icarm.2018.8610740,Y,Y
 P0396,Cascade-structured Visual-Inertial Navigation System for Aerial Imaginary,2024,Proceedings of the International Technical Meeting of The Institute of Navigatio,10.33012/2024.19636,N (EXC-8),N
 P0398,Improving UAV Localization Accuracy by Tracking Visual Features in a Georeferenced Map,2022,Lecture Notes in Electrical Engineering,10.1007/978-981-16-9492-9_308,N (EXC-8),N
 P0399,Improving Visual Inertial Odometry with UWB Positioning for UAV Indoor Navigation,2022,Proceedings - International Conference on Pattern Recognition,10.1109/icpr56361.2022.9956500,N (EXC-8),N
-P0401,Low Latency Visual Inertial Odometry With On-Sensor Accelerated Optical Flow for Resource-Constrained UAVs,2025,IEEE SENSORS JOURNAL,10.1109/jsen.2024.3406948,Y,Y
-P0403,Research on Unmanned Aerial Vehicle (UAV) Visual Landing Guidance and Positioning Algorithms,2024,Drones,10.3390/drones8060257,Y,N
+P0401,Low Latency Visual Inertial Odometry With On-Sensor Accelerated Optical Flow for Resource-Constrained UAVs,2025,IEEE SENSORS JOURNAL,10.1109/jsen.2024.3406948,Y,N
+P0403,Research on Unmanned Aerial Vehicle (UAV) Visual Landing Guidance and Positioning Algorithms,2024,Drones,10.3390/drones8060257,Y,Y
 P0405,Autonomous Customized Quadrotor With Vision-Aided Navigation For Indoor Flight Challenges,2022,"2022 8th International Conference on Mechatronics and Robotics Engineering, ICMR",10.1109/icmre54455.2022.9734105,Y,N
-P0406,Structure Priors Aided Visual-Inertial Navigation in Building Inspection Tasks with Auxiliary Line Features,2022,IEEE Transactions on Aerospace and Electronic Systems,10.1109/taes.2022.3142663,N (EXC-8),N
-P0407,Enhanced Altitude Estimation for Unmanned Aerial Vehicles in a GNSS-denied Environment,2024,"2024 International Conference on Unmanned Aircraft Systems, ICUAS 2024",10.1109/icuas60882.2024.10556904,N (EXC-8),N
+P0406,Structure Priors Aided Visual-Inertial Navigation in Building Inspection Tasks with Auxiliary Line Features,2022,IEEE Transactions on Aerospace and Electronic Systems,10.1109/taes.2022.3142663,Y,Y
+P0407,Enhanced Altitude Estimation for Unmanned Aerial Vehicles in a GNSS-denied Environment,2024,"2024 International Conference on Unmanned Aircraft Systems, ICUAS 2024",10.1109/icuas60882.2024.10556904,Y,N
 P0408,Computationally efficient visual-inertial sensor fusion for Global Positioning System-denied navigation on a small quadr,2016,Advances in Mechanical Engineering,10.1177/1687814016640996,Y,Y
 P0409,Development of an Algorithm for Absolute Visual Navigation of an Unmanned Aerial Vehicle,2025,Russian Aeronautics,10.3103/s1068799825030067,Y,N
 P0412,Robust visual-inertial localization with weak GPS priors for repetitive UAV flights,2017,Proceedings - IEEE International Conference on Robotics and Automation,10.1109/icra.2017.7989745,Y,Y
 P0414,A tightly-coupled dense monocular Visual-Inertial Odometry system with lightweight depth estimation network,2025,Applied Soft Computing,10.1016/j.asoc.2025.112809,Y,Y
-P0417,Enhancing VIO Robustness Under Sudden Lighting Variation: A Learning-Based IMU Dead-Reckoning for UAV Localization,2024,IEEE Robotics and Automation Letters,10.1109/lra.2024.3377950,N (EXC-8),N
-P0418,In-Flight Initialization of Global Visual-Inertial Estimators using Geospatial Data,2024,IEEE International Conference on Intelligent Robots and Systems,10.1109/iros58592.2024.10802622,N (EXC-8),N
+P0417,Enhancing VIO Robustness Under Sudden Lighting Variation: A Learning-Based IMU Dead-Reckoning for UAV Localization,2024,IEEE Robotics and Automation Letters,10.1109/lra.2024.3377950,Y,Y
+P0418,In-Flight Initialization of Global Visual-Inertial Estimators using Geospatial Data,2024,IEEE International Conference on Intelligent Robots and Systems,10.1109/iros58592.2024.10802622,Y,Y
 P0422,Square-Root Inverse Filter-based GNSS-Visual-Inertial Navigation,2024,Proceedings - IEEE International Conference on Robotics and Automation,10.1109/icra57147.2024.10611666,Y,Y
-P0424,A Novel Relocating Recognition Algorithm in Overlapping Region for Multi-UAVs Cluster,2022,"Proceedings of 2022 IEEE International Conference on Unmanned Systems, ICUS 2022",10.1109/icus55513.2022.9986862,N (EXC-8),N
-P0426,Design of UAV visual-inertial odometry in complex environment; [复杂环境下无人机视觉惯性里程计设计],2025,Zhongguo Guanxing Jishu Xuebao/Journal of Chinese Inertial Technology,10.13695/j.cnki.12-1222/o3.2025.02.005,N (EXC-8),N
+P0424,A Novel Relocating Recognition Algorithm in Overlapping Region for Multi-UAVs Cluster,2022,"Proceedings of 2022 IEEE International Conference on Unmanned Systems, ICUS 2022",10.1109/icus55513.2022.9986862,Y,N
 P0427,LSAF-LSTM-Based Self-Adaptive Multi-Sensor Fusion for Robust UAV State Estimation in Challenging Environments †,2025,Machines,10.3390/machines13020130,Y,Y
-P0429,Design and Implementation of Indoor Visual Autonomous Navigation System for Quadrotor UAV Based on Binocular Camera and ,2023,"2023 3rd International Conference on Computer Science, Electronic Information En",10.1109/cei60616.2023.10527790,N (EXC-8),N
+P0429,Design and Implementation of Indoor Visual Autonomous Navigation System for Quadrotor UAV Based on Binocular Camera and ,2023,"2023 3rd International Conference on Computer Science, Electronic Information En",10.1109/cei60616.2023.10527790,Y,N
 P0431,Enhanced State Estimation for Cruise Missiles Navigation: A BDS-Aided VIO Approach,2025,Lecture Notes in Electrical Engineering,10.1007/978-981-96-2224-5_42,N (EXC-8),N
-P0432,Pose ambiguity correction algorithm for UAV mobile platform landing; [无人机动平台着陆惯性/视觉位姿歧义校正算法],2020,Zhongguo Guanxing Jishu Xuebao/Journal of Chinese Inertial Technology,10.13695/j.cnki.12-1222/o3.2020.04.007,N (EXC-8),N
-P0434,LM-VINS: A Lightweight Magnetic-Assisted Visual-Inertial Navigation System for Unmanned Aerial Vehicles,2025,2025 China Automation Congress (CAC),10.1109/cac67268.2025.11487778,N (EXC-8),N
-P0437,Error State Extended Kalman Filter Multi-Sensor Fusion for Unmanned Aerial Vehicle Localization in GPS and Magnetometer ,2022,2022 International Conference on Unmanned Aircraft Systems (ICUAS),10.1109/icuas54217.2022.9836124,N (EXC-8),N
-P0438,A Multi-Sensor Fusion Framework for Unmanned Aerial Vehicle (UAV) Navigation and Inspection in GPS-Denied and Degraded E,2026,2026 IEEE Applied Sensing Conference (APSCON),10.1109/apscon68325.2026.11497125,N (EXC-8),N
+P0434,LM-VINS: A Lightweight Magnetic-Assisted Visual-Inertial Navigation System for Unmanned Aerial Vehicles,2025,2025 China Automation Congress (CAC),10.1109/cac67268.2025.11487778,Y,Y
+P0437,Error State Extended Kalman Filter Multi-Sensor Fusion for Unmanned Aerial Vehicle Localization in GPS and Magnetometer ,2022,2022 International Conference on Unmanned Aircraft Systems (ICUAS),10.1109/icuas54217.2022.9836124,Y,Y
+P0438,A Multi-Sensor Fusion Framework for Unmanned Aerial Vehicle (UAV) Navigation and Inspection in GPS-Denied and Degraded E,2026,2026 IEEE Applied Sensing Conference (APSCON),10.1109/apscon68325.2026.11497125,Y,N
 P0440,SupSLAM: A Robust Visual Inertial SLAM System Using SuperPoint for Unmanned Aerial Vehicles,2021,2021 8th NAFOSTED Conference on Information and Computer Science (NICS),10.1109/nics54270.2021.9701527,Y,Y
-P0450,Design and Implementation of Tennis Ball Boy Robot Based on a Quadrotor UAV,2023,"2023 8th International Conference on Automation, Control and Robotics Engineerin",10.1109/cacre58689.2023.10208124,N (EXC-8),N
-P0455,UAV state and parameter estimation in wind using calibration trajectories optimized for observability,2021,2021 American Control Conference (ACC),10.23919/acc50511.2021.9482853,Y,Y
-P0459,Towards UAV-Based Absolute Hierarchical Localization in Confined Spaces,2020,"2020 IEEE International Symposium on Safety, Security, and Rescue Robotics (SSRR",10.1109/ssrr50563.2020.9292616,Y,Y
+P0450,Design and Implementation of Tennis Ball Boy Robot Based on a Quadrotor UAV,2023,"2023 8th International Conference on Automation, Control and Robotics Engineerin",10.1109/cacre58689.2023.10208124,Y,N
+P0455,UAV state and parameter estimation in wind using calibration trajectories optimized for observability,2021,2021 American Control Conference (ACC),10.23919/acc50511.2021.9482853,Y,N
+P0459,Towards UAV-Based Absolute Hierarchical Localization in Confined Spaces,2020,"2020 IEEE International Symposium on Safety, Security, and Rescue Robotics (SSRR",10.1109/ssrr50563.2020.9292616,Y,N
 P0481,Data-Efficient Collaborative Decentralized Thermal-Inertial Odometry,2022,IEEE Robotics and Automation Letters,10.1109/lra.2022.3194675,Y,Y
-P0485,Robust Sensor Fusion for Autonomous UAV Navigation in GPS denied Forest Environment,2022,2022 IEEE 5th International Symposium in Robotics and Manufacturing Automation (,10.1109/roma55875.2022.9915682,Y,Y
+P0485,Robust Sensor Fusion for Autonomous UAV Navigation in GPS denied Forest Environment,2022,2022 IEEE 5th International Symposium in Robotics and Manufacturing Automation (,10.1109/roma55875.2022.9915682,Y,N
 P0506,Visual industrial inspection using aerial robots,2014,Proceedings of the 2014 3rd International Conference on Applied Robotics for the,10.1109/carpi.2014.7030056,Y,N
 P0512,Swan-Inspired Unmanned Aerial Vehicles With Long-neck Visual Perception System,2019,2019 IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AI,10.1109/aim.2019.8868743,Y,N
 P0535,LSTM and Filter Based Comparison Analysis for Indoor Global Localization in UAVs,2021,IEEE Access,10.1109/access.2021.3049896,Y,Y
 P0538,Towards Globally Consistent Visual-Inertial Collaborative SLAM,2018,2018 IEEE International Conference on Robotics and Automation (ICRA),10.1109/icra.2018.8461213,Y,Y
-P0544,Collaborative 6DoF Relative Pose Estimation for Two UAVs with Overlapping Fields of View,2018,2018 IEEE International Conference on Robotics and Automation (ICRA),10.1109/icra.2018.8461143,N (EXC-8),N
+P0544,Collaborative 6DoF Relative Pose Estimation for Two UAVs with Overlapping Fields of View,2018,2018 IEEE International Conference on Robotics and Automation (ICRA),10.1109/icra.2018.8461143,Y,N
 P0545,Encoderless Gimbal Calibration of Dynamic Multi-Camera Clusters,2018,2018 IEEE International Conference on Robotics and Automation (ICRA),10.1109/icra.2018.8462920,Y,Y
-P0565,High-Altitude Visual Feature-Based Multi-Sensor Tightly Coupled Pose Estimation,2025,"2025 9th International Conference on Vision, Image and Signal Processing (ICVISP",10.1109/icvisp68610.2025.11451677,N (EXC-8),N
-P0574,Distributed Cooperative Localization for Multiuav System in GNSS Constrained Environment,2025,"2025 International Ubiquitous Positioning, Indoor Navigation and Location-Based ",10.1109/upinlbs68186.2025.11468423,N (EXC-8),N
-P0584,Confidence Factor-Based Robust Localization Algorithm With Visual-Inertial-LiDAR Fusion in Underground Space,2025,IEEE Transactions on Circuits and Systems for Video Technology,10.1109/tcsvt.2025.3530077,N (EXC-8),N
-P0589,A Quadrotor Autonomous System for Warehouse Inspection: An Integrated Approach of Perception-Control-Planning,2025,"2025 International Conference on Power, Electrical Engineering, Electronics and ",10.1109/peeec67807.2025.00048,N (EXC-8),N
-P0594,A Robust UAV System for Operations in a Constrained Environment,2020,IEEE Robotics and Automation Letters,10.1109/lra.2020.2970980,Y,Y
-P0607,Cluster-ALIV: Aerial LiDAR-Inertia-Visual Dense Reconstruction for Cluster UAV,2025,IEEE Robotics and Automation Letters,10.1109/lra.2025.3559839,N (EXC-8),N
+P0565,High-Altitude Visual Feature-Based Multi-Sensor Tightly Coupled Pose Estimation,2025,"2025 9th International Conference on Vision, Image and Signal Processing (ICVISP",10.1109/icvisp68610.2025.11451677,Y,Y
+P0584,Confidence Factor-Based Robust Localization Algorithm With Visual-Inertial-LiDAR Fusion in Underground Space,2025,IEEE Transactions on Circuits and Systems for Video Technology,10.1109/tcsvt.2025.3530077,Y,Y
+P0589,A Quadrotor Autonomous System for Warehouse Inspection: An Integrated Approach of Perception-Control-Planning,2025,"2025 International Conference on Power, Electrical Engineering, Electronics and ",10.1109/peeec67807.2025.00048,Y,N
+P0594,A Robust UAV System for Operations in a Constrained Environment,2020,IEEE Robotics and Automation Letters,10.1109/lra.2020.2970980,Y,N
+P0607,Cluster-ALIV: Aerial LiDAR-Inertia-Visual Dense Reconstruction for Cluster UAV,2025,IEEE Robotics and Automation Letters,10.1109/lra.2025.3559839,Y,N
 P0624,Particle Filter-Based Localization Using Visual Feature Synchronization in GNSS-Denied Navigation,2025,"2025 Integrated Communications, Navigation and Surveillance Conference (ICNS)",10.1109/icns65417.2025.10976891,Y,Y
-P0627,Flexible Trinocular: Non-rigid Multi-Camera-IMU Dense Reconstruction for UAV Navigation and Mapping,2019,2019 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS),10.1109/iros40897.2019.8967651,Y,Y
-P0631,Autonomous Aerial Robot for High-Speed Search and Intercept Applications,2022,Field Robotics,10.55417/fr.2022044,Y,N
-P0632,Flying Co-Stereo: Enabling Long-Range Aerial Dense Mapping via Collaborative Stereo Vision of Dynamic-Baseline,2026,IEEE Transactions on Robotics,10.1109/tro.2026.3658293,N (EXC-8),N
-P0645,Enforcing Vision-Based Localization using Perception Constrained N-MPC for Multi-Rotor Aerial Vehicles,2022,2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS),10.1109/iros47612.2022.9981643,N (EXC-8),N
-P0662,"FAST-LIVO2: Fast, Direct LiDAR–Inertial–Visual Odometry",2025,IEEE Transactions on Robotics,10.1109/tro.2024.3502198,N (EXC-8),N
-P0663,$D^{2}$SLAM: Decentralized and Distributed Collaborative Visual-Inertial SLAM System for Aerial Swarm,2024,IEEE Transactions on Robotics,10.1109/tro.2024.3422003,N (EXC-8),N
-P0676,A UAV-based explore-then-exploit system for autonomous indoor facility inspection and scene reconstruction,2023,AUTOMATION IN CONSTRUCTION,10.1016/j.autcon.2023.104753,N (EXC-8),N
+P0627,Flexible Trinocular: Non-rigid Multi-Camera-IMU Dense Reconstruction for UAV Navigation and Mapping,2019,2019 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS),10.1109/iros40897.2019.8967651,Y,N
+P0632,Flying Co-Stereo: Enabling Long-Range Aerial Dense Mapping via Collaborative Stereo Vision of Dynamic-Baseline,2026,IEEE Transactions on Robotics,10.1109/tro.2026.3658293,Y,Y
+P0645,Enforcing Vision-Based Localization using Perception Constrained N-MPC for Multi-Rotor Aerial Vehicles,2022,2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS),10.1109/iros47612.2022.9981643,Y,N
+P0662,"FAST-LIVO2: Fast, Direct LiDAR–Inertial–Visual Odometry",2025,IEEE Transactions on Robotics,10.1109/tro.2024.3502198,Y,Y
+P0663,$D^{2}$SLAM: Decentralized and Distributed Collaborative Visual-Inertial SLAM System for Aerial Swarm,2024,IEEE Transactions on Robotics,10.1109/tro.2024.3422003,Y,Y
+P0676,A UAV-based explore-then-exploit system for autonomous indoor facility inspection and scene reconstruction,2023,AUTOMATION IN CONSTRUCTION,10.1016/j.autcon.2023.104753,Y,N
+P0057,Evaluation of a Commercially Available Autonomous Visual Inertial Odometry Solution for Indoor Navigation,2020,"2020 International Conference on Unmanned Aircraft Systems, ICUAS 2020",10.1109/icuas48674.2020.9213962,Y,N
+P0059,Gnss spoofing detection based on coupled visual/inertial/gnss navigation system,2021,Sensors,10.3390/s21206769,Y,N
+P0063,Formation Maintenance Method for Multi-UAV in Unknown Environments,2025,"2025 4th International Conference on Artificial Intelligence, Internet of Things",10.1109/aiotc66747.2025.11198761,Y,Y
+P0076,Tightly-coupled Line Feature-aided Visual Inertial Localization within Lightweight 3D Prior Map for Intelligent Vehicles,2023,"IEEE Conference on Intelligent Transportation Systems, Proceedings, ITSC",10.1109/itsc57777.2023.10422196,Y,Y
+P0198,A New Visual & Inertial Based Satellite Quality Evaluation Method,2022,ACM International Conference Proceeding Series,10.1145/3573942.3573994,Y,N
+P0278,Aerial robots on the way to underground: An experimental evaluation of VINS-mono on visual-inertial odometry camera,2019,"IEEE International Conference on Data Mining Workshops, ICDMW",10.1109/icdmw.2019.00024,Y,N
+P0387,Augmented Ultra-Wideband Localization for Quadrotor UAV: Disturbance Rejection and Credibility Quantification,2026,IEEE Transactions on Industrial Electronics,10.1109/tie.2025.3642438,N (EXC-8),N
+P0425,A UAV-Based Aircraft Surface Defect Inspection System via External Constraints and Deep Learning,2022,IEEE Transactions on Instrumentation and Measurement,10.1109/tim.2022.3198713,Y,Y
+P0456,Visual-Inertial State-Estimation Using Ground Station for UAV,2023,"2023 4th International Conference on Computing, Mathematics and Engineering Tech",10.1109/icomet57998.2023.10099145,Y,N
+P0466,GNSS-denied geolocalization of UAVs by visual matching of onboard camera images with orthophotos,2021,2021 20th International Conference on Advanced Robotics (ICAR),10.1109/icar53236.2021.9659333,Y,N
+P0525,A Dead Reckoning Method Based on Martian Atmosphere Polarized Skylight and Celestial Navigation for Mars Exploration UAV,2023,2023 China Automation Congress (CAC),10.1109/cac59555.2023.10450638,Y,N
+P0526,Integrated UWB-Vision Approach for Autonomous Docking of UAVs in GPS-denied Environments,2019,2019 International Conference on Robotics and Automation (ICRA),10.1109/icra.2019.8793851,Y,N
+P0546,Localization of UGV Guided by UAV Using Visual Inertia Sensors and UWB,2024,2024 IEEE 18th International Conference on Control & Automation (ICCA),10.1109/icca62789.2024.10591852,Y,N
+P0613,Optimal Navigation and Obstacle Avoidance for UAV in Urban Canyons,2025,2025 IEEE 12th International Workshop on Metrology for AeroSpace (MetroAeroSpace,10.1109/metroaerospace64938.2025.11114464,Y,Y
