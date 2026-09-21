@@ -186,10 +186,15 @@ def fig_class_year():
               'C4 Survey / benchmark', 'C5 Auxiliary modality', 'C6 System / application',
               'C7 Front-end / feature']
     yc = defaultdict(lambda: defaultdict(int))
-    for r in ext.values():
+    dropped = []
+    for pid, r in ext.items():
         y, c = r.get('year', ''), r.get('class_id', '')
         if y.isdigit() and c in classes:
             yc[y][c] += 1
+        else:
+            dropped.append(pid)
+    if dropped:
+        print(f'  WARN fig3: {len(dropped)} corpus papers without a valid class/year are not plotted: {dropped}')
     years = sorted(yc)
     M = np.array([[yc[y][c] for y in years] for c in classes])
     _fit_fonts(9)
@@ -215,28 +220,26 @@ def fig_class_year():
 
 # Figure 5: adaptive-strategy taxonomy
 def fig_adaptive_taxonomy():
+    """Horizontal bar chart of the six adaptive-strategy families (count and share of the corpus)."""
     rows = sorted(PARAM['adaptive'], key=lambda r: r['n'], reverse=True)
-    _fit_fonts(11)
-    fig, ax = plt.subplots(figsize=(11, 6.8))
+    N = len(CORPUS)
+    _fit_fonts(6.5)
+    fig, ax = plt.subplots(figsize=(6.5, 3.6))
     n = len(rows); ys = list(range(n))[::-1]
     maxc = max(r['n'] for r in rows) if rows else 1
     for y, r in zip(ys, rows):
         feature_level = 'feature-quality' in r['label'].lower()
-        col = FEATURE_C if feature_level else FILTER_C
-        ax.barh(y, r['n'], color=col, edgecolor='white', height=0.62, zorder=3)
-        ax.text(r['n'] + 0.12, y, f"{r['n']}   {refs_label(r['refs'], cap=5)}", va='center',
-                ha='left', fontsize=_FS, color='#222')
-        short = r['label'].replace(' / ', ' /\n').replace(' tuning', '').replace(' assessment', '')
-        ax.text(-0.15, y, short, va='center', ha='right', fontsize=_FS)
-    ax.set_xlim(0, maxc + 11); ax.set_ylim(-0.6, n - 0.4)
-    ax.set_yticks([]); ax.set_xlabel('Number of papers')
-    for s in ['top', 'right', 'left']:
-        ax.spines[s].set_visible(False)
-    ax.grid(axis='x', linestyle=':', alpha=0.5)
+        ax.barh(y, r['n'], color=FEATURE_C if feature_level else FILTER_C, edgecolor='white', height=0.62, zorder=3)
+        ax.text(r['n'] + 0.6, y, f"{r['n']} ({100 * r['n'] / N:.1f} %)", va='center', ha='left', fontsize=_FS, color='#222')
+    ax.set_yticks(ys); ax.set_yticklabels([r['label'] for r in rows])
+    ax.set_xlim(0, maxc * 1.35); ax.set_ylim(-0.6, n - 0.4)
+    ax.set_xlabel(f'Number of papers (n = {N})')
+    for s_ in ['top', 'right']:
+        ax.spines[s_].set_visible(False)
+    ax.grid(axis='x', linestyle=':', alpha=0.5, zorder=0)
     h1 = Rectangle((0, 0), 1, 1, color=FILTER_C); h2 = Rectangle((0, 0), 1, 1, color=FEATURE_C)
-    ax.legend([h1, h2], ['Filter-/estimator-level adaptation',
-                         'Feature-level adaptation'],
-              loc='upper center', bbox_to_anchor=(0.5, -0.18), ncol=2, frameon=False, fontsize=_FS)
+    ax.legend([h1, h2], ['Filter-/estimator-level adaptation', 'Feature-level adaptation'],
+              loc='upper center', bbox_to_anchor=(0.35, -0.22), ncol=2, frameon=False, fontsize=_FS)
     fig.tight_layout(); fig.savefig(FIG_DIR / 'fig5_adaptive_taxonomy.png'); plt.close(fig)
     print('Wrote fig5_adaptive_taxonomy.png')
 
@@ -252,17 +255,14 @@ def fig_gap_matrix():
          [('End-to-end\ndeep VIO', 'full'), ('Learned\nfront-ends', 'part'),
           ('On-autopilot\nML, no GPU\nG2', 'gap')]),
         ('Height /\naux fusion',
-         [('IMU preint.\n+ scale', 'full'), ('Fixed-weight\nbaro / UWB', 'part'),
+         [('IMU preint.\n+ scale', 'full'), ('Fixed / switched\nbaro, altimeter', 'part'),
           ('Adaptive\nquality-wtd.\nG3', 'gap')]),
         ('Robustness /\nmode switching',
-         [('M-estimator\n/ chi-sq.', 'full'), ('Temporal\ncalibration', 'part'),
+         [('M-estimator\n/ chi-sq.', 'full'), ('Single-trigger\nswitching', 'part'),
           ('Multi-criterion\nswitching\nG4', 'gap')]),
         ('Evaluation\ncoverage',
          [('Handheld /\nKITTI, TUM', 'full'), ('EuRoC /\nVIODE sim.', 'part'),
           ('Long GNSS-\ndenied\nG5', 'gap')]),
-        ('Fault\ntolerance',
-         [('State\nstabilization', 'full'), ('Visual-degrade\nrobustness', 'part'),
-          ('Actuator-fault\ntolerance\nG6', 'gap')]),
     ]
     head = ['Established', 'Intermediate', 'Open gap']
     scol = {'full': FULL, 'part': PART, 'none': NONE_C, 'gap': GAP}
@@ -288,7 +288,7 @@ def fig_gap_matrix():
     ax.set_xlim(-2.25, 3 * px + 0.05); ax.set_ylim(-0.10, top + 0.85); ax.axis('off')
     leg = [mpatches.Patch(color=FULL, label='Established in corpus'),
            mpatches.Patch(color=PART, label='Current intermediate frontier'),
-           mpatches.Patch(color=GAP, label='Open research gap (G1\u2013G6)')]
+           mpatches.Patch(color=GAP, label='Open research gap (G1\u2013G5)')]
     ax.legend(handles=leg, loc='upper center', bbox_to_anchor=(0.5, -0.01), ncol=2,
               frameon=False, fontsize=_FS, handlelength=1.1)
     fig.tight_layout(); fig.savefig(FIG_DIR / 'fig6_gap_matrix.png'); plt.close(fig)
@@ -315,8 +315,47 @@ def validate():
             if bad:
                 ok = False
                 print(f'  ERROR: {key}/{r["label"][:30]} cites non-corpus refs {bad}')
+    # Every corpus paper must carry a primary class (Fig. 3 silently drops blanks otherwise).
+    noclass = sorted(refnum[i] for i in CORPUS if not ext.get(i, {}).get('class_id', '').strip())
+    if noclass:
+        ok = False; print(f'  ERROR: corpus papers with no class_id (refs): {noclass}')
+    # Coverage: validation regime and metric rows must cover the corpus (T-3 implies >=1 metric);
+    # platform rows must partition it (Table 12 is reported as summing to 100 %).
+    def union(key):
+        return set().union(*(set(r['refs']) for r in PARAM.get(key, []))) if PARAM.get(key) else set()
+    for key in ('validation', 'metrics', 'frontend', 'platform'):
+        gap = sorted(valid_nums - union(key))
+        if gap:
+            if key in ('validation', 'metrics'):
+                # Tables 13/14 list named categories only (manuscript states they do not partition the corpus).
+                print(f'  WARN: {key} rows do not cover refs {gap} (named categories only; stated in the manuscript)')
+            else:
+                ok = False; print(f'  ERROR: {key} rows do not cover refs {gap}')
+    plat = Counter(x for r in PARAM.get('platform', []) for x in r['refs'])
+    multi = sorted(x for x, c in plat.items() if c > 1)
+    if multi:
+        ok = False; print(f'  ERROR: platform rows overlap on refs {multi} (must partition)')
+    # Soft check: adaptive-strategy rows vs the triage relevance dimension R2.
+    try:
+        r2 = {r['id'] for r in load_csv('04_eligibility/triage_worksheet.csv')
+              if r.get('id') in CORPUS and r.get('r2') == '1'}
+        r2n = {refnum[i] for i in r2}; ad = union('adaptive')
+        if r2n - ad or ad - r2n:
+            print(f'  WARN: R2=1 but not in an adaptive row: {sorted(r2n - ad)}; '
+                  f'in adaptive row but R2=0: {sorted(ad - r2n)}')
+    except Exception as e:  # pragma: no cover
+        print(f'  WARN: could not cross-check R2 ({e})')
     print('  RESULT:', 'PASS' if ok else 'FAIL')
     return ok
+
+
+def print_tables():
+    """Print every curated row exactly as it should appear in the manuscript (Tables 7-14)."""
+    print('\n=== MANUSCRIPT TABLE ROWS (N=%d) ===' % N)
+    for key, rows in PARAM.items():
+        print(f'\n[{key}]')
+        for r in rows:
+            print(f'  {r["label"]}\t{compress(r["refs"])}\t{r["pct"]:.1f}%')
 
 
 def print_summary():
@@ -368,6 +407,8 @@ if __name__ == '__main__':
     fig_adaptive_taxonomy()
     fig_gap_matrix()
     print_summary()
+    if '--tables' in sys.argv:
+        print_tables()
     validate()
     if '--audit' in sys.argv:
         audit()
