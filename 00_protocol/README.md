@@ -93,7 +93,7 @@ All three hard filters must be satisfied for a paper to be retained in the final
 | T-2 | Aerial validation | Validated on a UAV platform or aerial-collected dataset (EuRoC, TUM-VI MAV sequences, custom UAV flight). |
 | T-3 | Quantitative evaluation | Reports ≥1 quantitative accuracy metric (ATE, RPE, RMSE, position error) against a prior method or baseline. Purely qualitative papers fail. |
 
-**Relevance score** (0–1 per dimension, max 6) prioritises reading effort across: (1) GNSS-denied operation, (2) adaptive/online component, (3) real-time embedded/onboard execution, (4) EKF/filter-based fusion, (5) feature front-end (ORB, optical flow, keypoint quality), (6) auxiliary sensor fusion (barometer, rangefinder, UWB). GNSS-denied operation (R1) and an adaptive or online component (R2) are synthesis dimensions, not eligibility criteria. R2 is re-derived at extraction: it is 1 when the study belongs to an adaptive-strategy family of the taxonomy or its extraction row records an online or adaptive mechanism. Standard chi-square innovation gating alone does not qualify.
+**Relevance score** (0–1 per dimension, max 6) prioritises reading effort across: (1) GNSS-denied operation, (2) adaptive/online component, (3) real-time embedded/onboard execution, (4) EKF/filter-based fusion, (5) feature front-end (ORB, optical flow, keypoint quality), (6) auxiliary sensor fusion (barometer, rangefinder, UWB). GNSS-denied operation (R1) and an adaptive or online component (R2) are synthesis dimensions, not eligibility criteria. R2 is determined at extraction: it is 1 when the study belongs to an adaptive-strategy family of the taxonomy or its extraction row records an online or adaptive mechanism. Standard chi-square innovation gating alone does not qualify.
 
 ## 7. Study Selection Process
 
@@ -158,7 +158,7 @@ One row per included article in `06_data_extraction/extractions_full.csv`. Field
 | Front-end representation (`frontend_type`, `point_features`, `frontend_evidence`) | Multi-label: descriptor point features, optical-flow-tracked corners, point features (tracker not stated), direct / photometric, semi-direct, dense, point-line, learned end-to-end, event-based, consumed pose stream, not stated. `point_features` = yes for the first three and point-line. Basis of Table 10 |
 | Per-keypoint quality scoring (`per_keypoint_quality_scoring`, `quality_scoring_evidence`) | yes / frame-level / motion-state / no. Basis of gap G1 |
 | Limitation codes (`limitation_codes`, `limitation_evidence`) | L1 computational cost, L2 visual degradation, L3 long-term drift, L4 monocular scale, L5 dynamic scenes, or `none stated`. Counted only when stated by the authors as a limitation of their own method. Basis of Table 17 |
-| Recoding notes (`recode_notes`) | Free text on the recoded columns |
+| Coding notes (`coding_notes`) | Free text on coding decisions: why a sensor named in the paper was or was not coded as fused, borderline front-end types, how a stated drawback was mapped to L1-L5 |
 
 ## 11. Limitations (threats to validity)
 

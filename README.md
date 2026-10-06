@@ -12,7 +12,7 @@ Each folder corresponds to one stage of the PRISMA 2020 flow.
 | `03_retrieval/` | Retrieval | Retrieval status for the 309 sought reports |
 | `04_eligibility/` | Eligibility | Full-text triage worksheet (T-filters, relevance scores) |
 | `05_quality_assessment/` | Quality assessment | QA1–QA5 scores per retained paper |
-| `06_data_extraction/` | Data extraction | 20-field extraction table plus recoded columns for the 182 included studies |
+| `06_data_extraction/` | Data extraction | 20-field extraction table plus the coded synthesis columns for the 182 included studies |
 | `07_synthesis/` | Synthesis | Parametric tables, figure generator, PRISMA flow, keyword probe |
 
 Full-text PDFs and the manuscript are not redistributed here for copyright reasons. The included studies are identified by DOI in `07_synthesis/ref_id_matching.csv`, which also gives the reference number each study has in the paper.
@@ -35,7 +35,7 @@ Six binary relevance dimensions (GNSS-denied operation, adaptive component, real
 
 **Quality assessment.** Each retained paper was scored on the five items of Dybå and Dingsøyr (clear objective, experimental setup described, baseline comparison, limitations discussed, conclusions supported), each at 0 / 0.5 / 1.0. Mean total 4.14, minimum 2.5, maximum 5.0. No paper fell below the 2.0 sensitivity threshold.
 
-**Extraction and synthesis.** A 20-field template (identification, architecture, front-end, adaptation, platform, evaluation, analysis) was applied to every included study, together with the recoded columns described in Section 10 of the protocol. The result is `06_data_extraction/extractions_full.csv`. The synthesis classifies the corpus along eight parametric dimensions: fusion architecture, visual front-end, auxiliary sensors, adaptive-strategy family, addressed conditions, platform type, validation regime, and evaluation metrics. The classification lives in `07_synthesis/parametric_tables.csv`, the single curated source for the paper's Tables 8, 9 and 11–16 and the parametric figures. Reference numbers in the data files are those of the paper, where references are numbered in order of first appearance.
+**Extraction and synthesis.** A 20-field template (identification, architecture, front-end, adaptation, platform, evaluation, analysis) was applied to every included study, together with the coded columns described in Section 10 of the protocol. The result is `06_data_extraction/extractions_full.csv`. The synthesis classifies the corpus along eight parametric dimensions: fusion architecture, visual front-end, auxiliary sensors, adaptive-strategy family, addressed conditions, platform type, validation regime, and evaluation metrics. The classification lives in `07_synthesis/parametric_tables.csv`, the single curated source for the paper's Tables 8, 9 and 11–16 and the parametric figures. Reference numbers in the data files are those of the paper, where references are numbered in order of first appearance.
 
 **PRISMA flow.** 1021 identified → 397 duplicates removed → 624 screened → 315 excluded → 309 sought → 26 not retrieved → 283 assessed → 101 excluded → 182 included. The rendered diagram is in `07_synthesis/prisma/`.
 
