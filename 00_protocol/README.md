@@ -1,8 +1,6 @@
-# SLR Protocol — Visual-Inertial Odometry for UAV Navigation
+# SLR Protocol – Visual-Inertial Odometry for UAV Navigation
 
-**Adaptive Models, Methods, and Accuracy Improvement**
-
-A-priori protocol for the systematic literature review (SLR) on adaptive VIO for UAV navigation in GNSS-denied environments. Follows Kitchenham & Charters (2007) and the PRISMA 2020 reporting guidelines (Sarkis-Onofre et al., 2021).
+A-priori protocol for the systematic literature review (SLR) *Research gaps in adaptive visual-inertial odometry for UAV navigation*. Follows Kitchenham & Charters (2007) and the PRISMA 2020 reporting guidelines (Sarkis-Onofre et al., 2021).
 
 ## 1. Objectives
 
@@ -18,7 +16,7 @@ A-priori protocol for the systematic literature review (SLR) on adaptive VIO for
 |----|-------------------|
 | RQ1 | What is the current state and publication trend in VIO research targeted at UAV navigation? |
 | RQ2 | What sensor fusion architectures (loosely coupled, tightly coupled, factor-graph, filter-based, learning-based) and visual front-ends (monocular, stereo, event camera) are used in UAV VIO systems? |
-| RQ3 | What algorithmic strategies — adaptive parameter tuning, mode switching, outlier rejection, learning-based components, sensor quality assessment — are proposed to improve VIO robustness and accuracy under GNSS-denied, low-texture, high-dynamics, or sensor-degraded conditions on UAVs? |
+| RQ3 | What algorithmic strategies – adaptive parameter tuning, mode switching, outlier rejection, learning-based components, sensor quality assessment – are proposed to improve VIO robustness and accuracy under GNSS-denied, low-texture, high-dynamics, or sensor-degraded conditions on UAVs? |
 | RQ4 | What benchmark datasets, experimental platforms, and evaluation metrics are used to assess VIO performance on UAVs? |
 | RQ5 | What limitations, failure modes, and open research directions are identified for UAV VIO, particularly regarding real-time operation on resource-constrained platforms and GNSS-denied environments? |
 
@@ -26,7 +24,7 @@ A-priori protocol for the systematic literature review (SLR) on adaptive VIO for
 
 Covers peer-reviewed publications reporting VIO systems, algorithms, or components where UAVs (quadrotors, multirotors, fixed-wing drones, micro aerial vehicles) are the target platform or a directly stated application. Ground-only, underwater, and legged-robot papers are excluded unless they explicitly address aerial adaptation.
 
-Publication window: **January 2014 to search-execution date.** The 2014 lower bound reflects three field-defining events: the EuRoC MAV benchmark (collected 2014; Burri et al., 2016), optimisation-based real-time VIO (OKVIS; Leutenegger et al., 2015), and MAV-targeted real-time VO (SVO; Forster et al., 2014). Foundational pre-2014 work (PTAM, Klein & Murray, 2007; MonoSLAM, Davison et al., 2007; original MSCKF, Mourikis & Roumeliotis, 2007) is covered narratively in the Background section, not subjected to systematic inclusion.
+Publication window: **January 2014 to search-execution date.**
 
 ## 4. Search Strategy
 
@@ -34,9 +32,9 @@ Publication window: **January 2014 to search-execution date.** The 2014 lower bo
 
 | Database | Coverage Strength |
 |----------|-------------------|
-| Scopus (Elsevier) | Engineering, CS, robotics; broad interdisciplinary, advanced TITLE-ABS-KEY search |
-| Web of Science (Clarivate) | Engineering, CS, applied sciences; high citation quality, IEEE/ACM proceedings |
-| IEEE Xplore | IEEE journals, conferences, standards; primary robotics/aerospace/UAV venue |
+| Scopus (Elsevier) | Engineering, CS, robotics. Broad interdisciplinary coverage, advanced TITLE-ABS-KEY search |
+| Web of Science (Clarivate) | Engineering, CS, applied sciences. High citation quality, IEEE/ACM proceedings |
+| IEEE Xplore | IEEE journals, conferences, standards. Primary robotics/aerospace/UAV venue |
 
 ### PICO
 
@@ -44,26 +42,26 @@ Search terms were structured with the PICO framework (Schardt et al., 2007):
 
 | Element | Terms |
 |---------|-------|
-| P — Population (platform) | "unmanned aerial vehicle" OR "UAV" |
-| I — Intervention (technique) | "visual-inertial odometry" OR "visual inertial odometry" OR "visual-inertial navigation" OR "visual inertial navigation" OR "visual-inertial fusion" OR "visual inertial fusion" |
-| C — Comparison | N/A (addressed within RQ3) |
-| O — Outcome | Navigation accuracy, pose estimation, trajectory estimation, odometry error |
+| P – Population (platform) | "unmanned aerial vehicle" OR "UAV" OR "drone*" |
+| I – Intervention (technique) | "visual-inertial odometry" OR "visual inertial odometry" OR "visual-inertial navigation" OR "visual inertial navigation" OR "visual-inertial fusion" OR "visual inertial fusion" |
+| C – Comparison | N/A (addressed within RQ3) |
+| O – Outcome | Navigation accuracy, pose estimation, trajectory estimation, odometry error |
 
 ### Final query strings
 
 **Scopus**
 ```
-TITLE-ABS-KEY ( ( "visual-inertial odometry" OR "visual inertial odometry" OR "visual-inertial navigation" OR "visual inertial navigation" OR "visual-inertial fusion" OR "visual inertial fusion" ) AND ( "unmanned aerial vehicle" OR "UAV" ) ) AND PUBYEAR > 2013 AND ( LIMIT-TO ( DOCTYPE , "cp" ) OR LIMIT-TO ( DOCTYPE , "ar" ) )
+TITLE-ABS-KEY ( ( "visual-inertial odometry" OR "visual inertial odometry" OR "visual-inertial navigation" OR "visual inertial navigation" OR "visual-inertial fusion" OR "visual inertial fusion" ) AND ( "unmanned aerial vehicle" OR "UAV" OR "drone*" ) ) AND PUBYEAR > 2013 AND ( LIMIT-TO ( DOCTYPE , "cp" ) OR LIMIT-TO ( DOCTYPE , "ar" ) )
 ```
 
 **Web of Science**
 ```
-TS=( ("visual-inertial odometry" OR "visual inertial odometry" OR "visual-inertial navigation" OR "visual inertial navigation" OR "visual-inertial fusion" OR "visual inertial fusion") AND ("unmanned aerial vehicle" OR "UAV" ) )
+TS=( ("visual-inertial odometry" OR "visual inertial odometry" OR "visual-inertial navigation" OR "visual inertial navigation" OR "visual-inertial fusion" OR "visual inertial fusion") AND ("unmanned aerial vehicle" OR "UAV" OR "drone*") )
 ```
 
 **IEEE Xplore**
 ```
-((("All Metadata":"visual-inertial odometry" OR "All Metadata":"visual inertial odometry" OR "All Metadata":"visual-inertial navigation" OR "All Metadata":"visual inertial navigation") AND ("All Metadata":"UAV" OR "All Metadata":"unmanned aerial vehicle")))
+((("All Metadata":"visual-inertial odometry" OR "All Metadata":"visual inertial odometry" OR "All Metadata":"visual-inertial navigation" OR "All Metadata":"visual inertial navigation") AND ("All Metadata":"UAV" OR "All Metadata":"unmanned aerial vehicle" OR "All Metadata":"drone*")))
 ```
 
 ## 5. Inclusion / Exclusion Criteria
@@ -71,19 +69,19 @@ TS=( ("visual-inertial odometry" OR "visual inertial odometry" OR "visual-inerti
 | ID | Type | Criterion |
 |----|------|-----------|
 | INC-1 | Include | Reports a VIO system/method/component fusing both visual (camera) and inertial (IMU) data for pose/motion estimation. VO-only or INS-only do not qualify. |
-| INC-2 | Include | Target platform is explicitly or strongly implicitly a UAV / drone / quadrotor / MAV / fixed-wing drone or equivalent aerial robot. |
+| INC-2 | Include | Target platform is explicitly or strongly implicitly a UAV, drone or functionally equivalent aerial robot. |
 | INC-3 | Include | Peer-reviewed (journal or conference). |
 | INC-4 | Include | Written in English. |
 | INC-5 | Include | Publication year 2014 or later. |
 | EXC-1 | Exclude | Duplicate across databases (version with more citation data retained). |
 | EXC-2 | Exclude | Addresses only ground, underwater, or legged robots without aerial application. |
 | EXC-3 | Exclude | Visual odometry only (no IMU/inertial component). |
-| EXC-4 | Exclude | Secondary study (review, survey, meta-analysis) — tracked separately for context. |
+| EXC-4 | Exclude | Secondary study (review, survey, meta-analysis) – tracked separately for context. |
 | EXC-5 | Exclude | Dataset paper with no algorithmic VIO contribution. |
 | EXC-6 | Exclude | Abstract-only records or extended abstracts under 4 pages. |
 | EXC-7 | Exclude | Focuses only on hardware design, sensor calibration, or communications, with VIO as a cited downstream application and no algorithmic contribution to VIO itself. |
 | EXC-8 | Exclude | Full text not retrievable through any access channel. |
-| EXC-9 | Exclude | Reports research of russian origin, excluded on sourcing/verifiability grounds (see manuscript Methods). |
+| EXC-9 | Exclude | Reports originating from institutions of the Russian Federation. Follows bill No. 7633 on the use of information sources of the aggressor state in scientific research, which the Verkhovna Rada of Ukraine adopted on 1 December 2022 (see https://doi.org/10.1007/s10993-024-09697-4). Applied after the T-filters of Section 6, so that its effect is exact. |
 
 ## 6. Full-Text Triage
 
@@ -91,19 +89,19 @@ All three hard filters must be satisfied for a paper to be retained in the final
 
 | ID | Label | Rule |
 |----|-------|------|
-| T-1 | Algorithmic contribution | Presents or significantly extends a VIO algorithm. Applying an off-the-shelf system (e.g. VINS-Mono) unmodified fails this filter. |
+| T-1 | Algorithmic contribution | Presents or significantly extends a VIO algorithm, **or** a multi-sensor state estimator in which the VIO measurement model, its weighting, or its integration with auxiliary sensors is the contribution. Applying an off-the-shelf system (e.g. VINS-Mono) unmodified inside an application pipeline fails this filter. Studies retained under the second clause are identified in the notes column of `04_eligibility/triage_worksheet.csv` ("second clause" or "T-1 borderline"). |
 | T-2 | Aerial validation | Validated on a UAV platform or aerial-collected dataset (EuRoC, TUM-VI MAV sequences, custom UAV flight). |
 | T-3 | Quantitative evaluation | Reports ≥1 quantitative accuracy metric (ATE, RPE, RMSE, position error) against a prior method or baseline. Purely qualitative papers fail. |
 
-**Relevance score** (0–1 per dimension, max 6) prioritises reading effort across: (1) GNSS-denied operation, (2) adaptive/online component, (3) real-time embedded/onboard execution, (4) EKF/filter-based fusion, (5) feature front-end (ORB, optical flow, keypoint quality), (6) auxiliary sensor fusion (barometer, rangefinder, UWB). Scores 4–6 = core corpus (deep extraction); 2–3 = targeted extraction; 0–1 = skim for RQ-specific relevance only.
+**Relevance score** (0–1 per dimension, max 6) prioritises reading effort across: (1) GNSS-denied operation, (2) adaptive/online component, (3) real-time embedded/onboard execution, (4) EKF/filter-based fusion, (5) feature front-end (ORB, optical flow, keypoint quality), (6) auxiliary sensor fusion (barometer, rangefinder, UWB). GNSS-denied operation (R1) and an adaptive or online component (R2) are synthesis dimensions, not eligibility criteria. R2 is determined at extraction: it is 1 when the study belongs to an adaptive-strategy family of the taxonomy or its extraction row records an online or adaptive mechanism.
 
 ## 7. Study Selection Process
 
-SALSA-aligned (Grant & Booth, 2009): **Search** (execute queries, export to Zotero) → **Deduplication** (by DOI + title; keep most complete metadata) → **Screening** (title/abstract against INC/EXC; borderline cases retained) → **Full-text appraisal** (apply criteria, record exclusion reasons, reconcile by consensus). A PRISMA flow diagram documents counts at each stage.
+SALSA-aligned (Grant & Booth, 2009): **Search** (execute queries, export to Zotero) → **Deduplication** (by DOI and title, keeping the most complete metadata) → **Screening** (title/abstract against INC/EXC, borderline cases retained) → **Full-text appraisal** (apply criteria, record exclusion reasons, reconcile by consensus). A PRISMA flow diagram documents counts at each stage.
 
 ## 8. Quality Assessment
 
-Each included paper scored on five dimensions (0 = No, 0.5 = Partial, 1 = Yes). Papers below 2.0/5.0 are flagged for sensitivity analysis, not auto-excluded; scores reported in aggregate.
+Each included paper scored on five dimensions (0 = No, 0.5 = Partial, 1 = Yes). Papers below 2.0/5.0 are flagged for sensitivity analysis, not auto-excluded. Scores are reported in aggregate.
 
 | Item | Question |
 |------|----------|
@@ -117,69 +115,77 @@ Each included paper scored on five dimensions (0 = No, 0.5 = Partial, 1 = Yes). 
 
 Narrative synthesis (primary), supplemented by frequency analysis and thematic mapping:
 
-- **RQ1** — descriptive statistics and publication-trend charts.
-- **RQ2** — taxonomy table of VIO architectures mapped to representative papers.
-- **RQ3** — thematic analysis of robustness/accuracy strategies, classified into sensor-, algorithmic-, and system-level adaptations.
-- **RQ4** — summary table of benchmarks, metrics, and platform configurations.
-- **RQ5** — structured gap analysis linking limitations to future directions.
+- **RQ1** – descriptive statistics and publication-trend charts.
+- **RQ2** – taxonomy table of VIO architectures mapped to representative papers.
+- **RQ3** – thematic analysis of robustness/accuracy strategies, classified into sensor-, algorithmic-, and system-level adaptations.
+- **RQ4** – summary table of benchmarks, metrics, and platform configurations.
+- **RQ5** – structured gap analysis linking limitations to future directions.
 
-Classification policy: each study is assigned one primary thematic class (C1–C7) for the publication-trend and class-by-year analyses, whereas membership across the eight parametric dimensions is multi-label — a study may fall in several rows (e.g., a hybrid architecture, or a method addressing several flight conditions), so the parametric row shares need not sum to 100%. Treating publications as multi-level, multi-category objects follows the multi-level classification approach of Turkin et al. (2025).
+Primary thematic classes: C1 multi-sensor fusion, C2 adaptive / robust estimation, C3 initialisation, scale and observability, C4 evaluation / benchmark studies (primary studies whose contribution is a comparison or evaluation, while secondary surveys remain excluded under EXC-4), C5 auxiliary modality (thermal, event, ToF, UWB, altimeter), C6 integrated system / application, C7 front-end / feature processing.
+
+Classification policy: each study is assigned one primary thematic class (C1–C7) for the publication-trend and class-by-year analyses, whereas membership across the eight parametric dimensions is multi-label – a study may fall in several rows (e.g., a hybrid architecture, or a method addressing several flight conditions), so the parametric row shares need not sum to 100%. Treating publications as multi-level, multi-category objects follows the multi-level classification approach of Turkin et al. (2025).
 
 Reporting structure: Abstract → Introduction → Background → Methodology → Results (RQ1–RQ5) → Discussion → Conclusion & Future Work.
 
 ## 10. Data Extraction Template
 
-One sheet per included article; fields marked (*) are mandatory.
+One row per included article in `06_data_extraction/extractions_full.csv`. Fields marked (*) are mandatory.
 
-| Field | Description / Possible Values |
+| Field (column) | Description / Possible Values |
 |-------|------------------------------|
-| Reference ID * | Unique identifier (e.g., P001) |
-| Full citation * | Authors, year |
-| Year * | Publication year |
-| Venue * | Journal / conference, publisher |
-| Country / Institution | First-author affiliation |
-| VIO Architecture * | Loosely / tightly / semi-tightly coupled |
-| Fusion Method * | EKF, UKF, ESKF, factor graph / iSAM, sliding-window optimisation, learning-based, hybrid |
-| Visual Front-end * | Monocular, stereo, RGB-D, event camera |
-| Features / Representation * | Point (FAST, ORB, SIFT), line, direct/semi-direct, deep features |
-| IMU Preintegration | Yes/No; approach (Forster, Shen, etc.) |
-| Adaptive / Online Component | Yes/No/Partial — adaptation type, trigger condition, online vs offline execution |
-| UAV Platform * | Type and commercial model if named |
-| Benchmark / Dataset * | EuRoC, KITTI, TUM-VI, custom; sequence names |
-| Evaluation Metrics * | ATE, RTE, RPE, RMSE, computational load |
-| Challenging Conditions Addressed | Low texture, fast motion, lighting, vibration, GPS-denied |
-| Key Contribution * | Main technical claim or improvement |
-| Limitations Stated | Authors' own limitations |
-| QA Score (0–5) | Aggregate quality score |
-| Relevant RQs * | RQ1–RQ5 primarily addressed |
-| Reviewer Notes | Free text |
+| Reference ID * (`reference_id`) | Unique identifier (P0001 ...) |
+| Full citation * (`authors_year`) | Authors, year |
+| Year * (`year`) | Publication year |
+| Venue * (`venue`), DOI (`doi`) | Journal / conference, publisher, and the DOI |
+| Country / Institution (`country_institution`) | First-author affiliation |
+| Thematic class (`class_id`), relevance score (`relevance_score`), QA total (`qa_total`) | C1–C7 primary class, sum of R1–R6, QA1–QA5 total (0–5) |
+| VIO Architecture * (`vio_architecture`) | Loosely / tightly / semi-tightly coupled |
+| Fusion Method * (`fusion_method`) | EKF, UKF, ESKF, MSCKF, factor graph / iSAM, sliding-window optimisation, learning-based, hybrid |
+| Visual Front-end * (`visual_frontend`) | Monocular, stereo, RGB-D / ToF, thermal, event camera |
+| Features / Representation * (`features_representation`) | Point (FAST, ORB, SIFT), line, direct/semi-direct, dense, learned features |
+| IMU Preintegration (`imu_preintegration`) | Yes/No and the approach (Forster, Shen, etc.) |
+| Adaptive / Online Component (`adaptive_online`) | Yes/No/Partial – adaptation type, trigger condition, online vs offline execution |
+| UAV Platform * (`uav_platform`) | Type and commercial model if named |
+| Benchmark / Dataset * (`benchmark_dataset`) | EuRoC, KITTI, TUM-VI, custom, with sequence names |
+| Evaluation Metrics * (`evaluation_metrics`) | ATE, RTE, RPE, RMSE, computational load |
+| Challenging Conditions Addressed (`challenging_conditions`) | Low texture, fast motion, lighting, vibration, GNSS-denied |
+| Key Contribution * (`key_contribution`) | Main technical claim or improvement |
+| Limitations Stated (`limitations_stated`) | Authors' own limitations |
+| Relevant RQs * (`relevant_rqs`) | RQ1–RQ5 primarily addressed |
+| Reviewer Notes (`reviewer_notes`) | Free text |
+| Auxiliary sensors (`aux_sensors`, `aux_measurement_models`, `aux_fusion_weight`, `aux_evidence`) | Sensors fused with the camera+IMU estimator, their measurement-model class (absolute pressure altitude, range to ground, range to anchor, absolute 3-D position, relative pose, heading) and fusion weight (fixed, adaptive with the driving signal named, threshold switch, not stated). Basis of Table 11 |
+| Height channel (`height_channel`, `height_channel_weighting`) | yes/no, weighting as above, or `scale or depth aid` when the height is used without being a measurement of the estimator. Basis of gap G3 |
+| Front-end representation (`frontend_type`, `point_features`, `frontend_evidence`) | Multi-label: descriptor point features, optical-flow-tracked corners, point features (tracker not stated), direct / photometric, semi-direct, dense, point-line, learned end-to-end, event-based, consumed pose stream, not stated. `point_features` = yes for the first three and point-line. Basis of Table 10 |
+| Per-keypoint quality scoring (`per_keypoint_quality_scoring`, `quality_scoring_evidence`) | yes / frame-level / motion-state / no. Basis of gap G1 |
+| Limitation codes (`limitation_codes`, `limitation_evidence`) | L1 computational cost, L2 visual degradation, L3 long-term drift, L4 monocular scale, L5 dynamic scenes, or `none stated`. Counted only when stated by the authors as a limitation of their own method. Basis of Table 17 |
 
 ## 11. Limitations (threats to validity)
 
-- **Language** — English-only; non-English work may be missed.
-- **Time restriction** — pre-2014 excluded; foundational work covered narratively.
-- **Subjectivity in quality scoring** — mitigated by explicit criteria and researcher/supervisor cross-checking.
+- **Language** – English-only, so non-English work may be missed.
+- **Time restriction** – pre-2014 excluded.
+- **Subjectivity in quality scoring** – mitigated by explicit criteria and researchers cross-checking.
 
 ## 12. Final Execution Summary
 
-Final PRISMA 2020 cascade, as reported in the manuscript (searches executed 2026-05-15; Scopus, Web of Science, IEEE Xplore):
+Final PRISMA 2020 cascade, as reported in the manuscript (searches executed in September 2026 in Scopus, Web of Science and IEEE Xplore):
 
 | Stage | Count |
 |-------|-------|
-| Unique records after deduplication | 398 |
-| Title/abstract screened | 398 |
-| ├─ Retained for full-text retrieval | 232 |
-| └─ Excluded at title/abstract | 166 |
-| Full text retrieved | 124 |
-| Excluded — full text unretrievable (EXC-8) | 108 |
-| Excluded at full-text triage (T-1/T-2/T-3, INC-4, EXC-9) | 38 |
-| **Final synthesis corpus** | **86** |
+| Records identified (Scopus 364, Web of Science 249, IEEE Xplore 408) | 1021 |
+| Duplicates removed | 397 |
+| Title/abstract screened | 624 |
+| ├─ Retained for full-text retrieval | 309 |
+| └─ Excluded at title/abstract | 315 (17 under INC-4) |
+| Full text retrieved | 283 |
+| Excluded – full text unretrievable (EXC-8) | 26 |
+| Excluded at full-text triage (T-1/T-2/T-3, INC-4, EXC-9) | 101 |
+| **Final synthesis corpus** | **182** |
 
-Full-text triage detail: of the 38 excluded, 32 failed T-1 (algorithmic contribution; 12 of these also failed T-3), 3 were excluded under INC-4 (language), and 3 under EXC-9 (research of russian origin) on full-text review.
+Full-text triage detail: of the 101 excluded, 76 failed T-1 (algorithmic contribution, 25 of these also failed T-3), 13 failed T-2, 7 failed T-3 alone, 2 were excluded under INC-4 (language), and 3 under EXC-9 (institutional origin). All three EXC-9 reports pass T-1/T-2/T-3. Including them would raise the corpus to 185 and change seven counts by one to three studies each, without changing which cells of the taxonomy are populated (Section 4.5 of the paper).
 
-Quality assessment: QA1–QA5 scored from full text for the 86 synthesised papers; mean QA total 4.30/5.0 (min 2.5, max 5.0); **zero** papers below the 2.0 sensitivity threshold.
+Of the 182 studies, 125 explicitly target GNSS-denied operation (R1), 140 contain an adaptive or online component (R2), and 96 have both.
 
-> Note: the earlier protocol-stage snapshots (228-paper INCLUDE pool, C1–C7 thematic classes, interim 191/194 corpus figures) reflect the title/abstract-screening pipeline and were superseded by the full-text retrieval and triage reported in the final manuscript. The numbers above are authoritative.
+Quality assessment: QA1–QA5 scored from full text for the 182 synthesised papers, mean QA total 4.14/5.0 (min 2.5, max 5.0), and **zero** papers below the 2.0 sensitivity threshold.
 
 ## References
 
