@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Corpus-level keyword probe for the research gaps (manuscript Table 16).
+"""Corpus-level keyword probe for the research gaps (manuscript Table 18).
 
 Searches the full text of every included study for the defining terms of each
 probed gap and writes keyword_probe_results.csv (one row per paper and gap,

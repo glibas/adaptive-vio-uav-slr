@@ -1,6 +1,6 @@
 # SLR Protocol — Visual-Inertial Odometry for UAV Navigation
 
-A-priori protocol for the systematic literature review (SLR) on adaptive VIO for UAV navigation in GNSS-denied environments. Follows Kitchenham & Charters (2007) and the PRISMA 2020 reporting guidelines (Sarkis-Onofre et al., 2021).
+A-priori protocol for the systematic literature review (SLR) *Research gaps in adaptive visual-inertial odometry for UAV navigation*. Follows Kitchenham & Charters (2007) and the PRISMA 2020 reporting guidelines (Sarkis-Onofre et al., 2021).
 
 ## 1. Objectives
 
@@ -42,7 +42,7 @@ Search terms were structured with the PICO framework (Schardt et al., 2007):
 
 | Element | Terms |
 |---------|-------|
-| P — Population (platform) | "unmanned aerial vehicle" OR "UAV" |
+| P — Population (platform) | "unmanned aerial vehicle" OR "UAV" OR "drone*" |
 | I — Intervention (technique) | "visual-inertial odometry" OR "visual inertial odometry" OR "visual-inertial navigation" OR "visual inertial navigation" OR "visual-inertial fusion" OR "visual inertial fusion" |
 | C — Comparison | N/A (addressed within RQ3) |
 | O — Outcome | Navigation accuracy, pose estimation, trajectory estimation, odometry error |
@@ -51,17 +51,17 @@ Search terms were structured with the PICO framework (Schardt et al., 2007):
 
 **Scopus**
 ```
-TITLE-ABS-KEY ( ( "visual-inertial odometry" OR "visual inertial odometry" OR "visual-inertial navigation" OR "visual inertial navigation" OR "visual-inertial fusion" OR "visual inertial fusion" ) AND ( "unmanned aerial vehicle" OR "UAV" ) ) AND PUBYEAR > 2013 AND ( LIMIT-TO ( DOCTYPE , "cp" ) OR LIMIT-TO ( DOCTYPE , "ar" ) )
+TITLE-ABS-KEY ( ( "visual-inertial odometry" OR "visual inertial odometry" OR "visual-inertial navigation" OR "visual inertial navigation" OR "visual-inertial fusion" OR "visual inertial fusion" ) AND ( "unmanned aerial vehicle" OR "UAV" OR "drone*" ) ) AND PUBYEAR > 2013 AND ( LIMIT-TO ( DOCTYPE , "cp" ) OR LIMIT-TO ( DOCTYPE , "ar" ) )
 ```
 
 **Web of Science**
 ```
-TS=( ("visual-inertial odometry" OR "visual inertial odometry" OR "visual-inertial navigation" OR "visual inertial navigation" OR "visual-inertial fusion" OR "visual inertial fusion") AND ("unmanned aerial vehicle" OR "UAV" ) )
+TS=( ("visual-inertial odometry" OR "visual inertial odometry" OR "visual-inertial navigation" OR "visual inertial navigation" OR "visual-inertial fusion" OR "visual inertial fusion") AND ("unmanned aerial vehicle" OR "UAV" OR "drone*") )
 ```
 
 **IEEE Xplore**
 ```
-((("All Metadata":"visual-inertial odometry" OR "All Metadata":"visual inertial odometry" OR "All Metadata":"visual-inertial navigation" OR "All Metadata":"visual inertial navigation") AND ("All Metadata":"UAV" OR "All Metadata":"unmanned aerial vehicle")))
+((("All Metadata":"visual-inertial odometry" OR "All Metadata":"visual inertial odometry" OR "All Metadata":"visual-inertial navigation" OR "All Metadata":"visual inertial navigation") AND ("All Metadata":"UAV" OR "All Metadata":"unmanned aerial vehicle" OR "All Metadata":"drone*")))
 ```
 
 ## 5. Inclusion / Exclusion Criteria
@@ -69,7 +69,7 @@ TS=( ("visual-inertial odometry" OR "visual inertial odometry" OR "visual-inerti
 | ID | Type | Criterion |
 |----|------|-----------|
 | INC-1 | Include | Reports a VIO system/method/component fusing both visual (camera) and inertial (IMU) data for pose/motion estimation. VO-only or INS-only do not qualify. |
-| INC-2 | Include | Target platform is explicitly or strongly implicitly a UAV / drone / quadrotor / MAV / fixed-wing drone or equivalent aerial robot. |
+| INC-2 | Include | Target platform is explicitly or strongly implicitly a UAV, drone or functionally equivalent aerial robot. |
 | INC-3 | Include | Peer-reviewed (journal or conference). |
 | INC-4 | Include | Written in English. |
 | INC-5 | Include | Publication year 2014 or later. |
@@ -81,7 +81,7 @@ TS=( ("visual-inertial odometry" OR "visual inertial odometry" OR "visual-inerti
 | EXC-6 | Exclude | Abstract-only records or extended abstracts under 4 pages. |
 | EXC-7 | Exclude | Focuses only on hardware design, sensor calibration, or communications, with VIO as a cited downstream application and no algorithmic contribution to VIO itself. |
 | EXC-8 | Exclude | Full text not retrievable through any access channel. |
-| EXC-9 | Exclude | Reports originating from institutions of the Russian Federation, in compliance with the legislative restriction adopted by the Verkhovna Rada of Ukraine on 1 December 2022 (bill No. 7633), see https://doi.org/10.1007/s10993-024-09697-4. |
+| EXC-9 | Exclude | Reports originating from institutions of the Russian Federation (author affiliation, checked at full text). A non-scientific criterion observed by the authors: it follows bill No. 7633 on the use of information sources of the aggressor state in scientific research, which the Verkhovna Rada of Ukraine adopted in the first reading on 1 December 2022 (see https://doi.org/10.1007/s10993-024-09697-4). Applied after the T-filters of Section 6, so that its effect is exact. |
 
 ## 6. Full-Text Triage
 
@@ -89,11 +89,11 @@ All three hard filters must be satisfied for a paper to be retained in the final
 
 | ID | Label | Rule |
 |----|-------|------|
-| T-1 | Algorithmic contribution | Presents or significantly extends a VIO algorithm, **or** a multi-sensor state estimator in which the VIO measurement model, its weighting, or its integration with auxiliary sensors is the contribution. Applying an off-the-shelf system (e.g. VINS-Mono) unmodified inside an application pipeline fails this filter. Studies retained under the second clause are marked as T-1 borderline in `04_eligibility/triage_worksheet.csv` (notes column). |
+| T-1 | Algorithmic contribution | Presents or significantly extends a VIO algorithm, **or** a multi-sensor state estimator in which the VIO measurement model, its weighting, or its integration with auxiliary sensors is the contribution. Applying an off-the-shelf system (e.g. VINS-Mono) unmodified inside an application pipeline fails this filter. Studies retained under the second clause are identified in the notes column of `04_eligibility/triage_worksheet.csv` ("second clause" or "T-1 borderline"). |
 | T-2 | Aerial validation | Validated on a UAV platform or aerial-collected dataset (EuRoC, TUM-VI MAV sequences, custom UAV flight). |
 | T-3 | Quantitative evaluation | Reports ≥1 quantitative accuracy metric (ATE, RPE, RMSE, position error) against a prior method or baseline. Purely qualitative papers fail. |
 
-**Relevance score** (0–1 per dimension, max 6) prioritises reading effort across: (1) GNSS-denied operation, (2) adaptive/online component, (3) real-time embedded/onboard execution, (4) EKF/filter-based fusion, (5) feature front-end (ORB, optical flow, keypoint quality), (6) auxiliary sensor fusion (barometer, rangefinder, UWB).
+**Relevance score** (0–1 per dimension, max 6) prioritises reading effort across: (1) GNSS-denied operation, (2) adaptive/online component, (3) real-time embedded/onboard execution, (4) EKF/filter-based fusion, (5) feature front-end (ORB, optical flow, keypoint quality), (6) auxiliary sensor fusion (barometer, rangefinder, UWB). GNSS-denied operation (R1) and an adaptive or online component (R2) are synthesis dimensions, not eligibility criteria. R2 is re-derived at extraction: it is 1 when the study belongs to an adaptive-strategy family of the taxonomy or its extraction row records an online or adaptive mechanism. Standard chi-square innovation gating alone does not qualify.
 
 ## 7. Study Selection Process
 
@@ -153,11 +153,11 @@ One row per included article in `06_data_extraction/extractions_full.csv`. Field
 | Limitations Stated (`limitations_stated`) | Authors' own limitations |
 | Relevant RQs * (`relevant_rqs`) | RQ1–RQ5 primarily addressed |
 | Reviewer Notes (`reviewer_notes`) | Free text |
-| Auxiliary sensors (`aux_sensors`, `aux_measurement_models`, `aux_fusion_weight`, `aux_evidence`) | Sensors fused with the camera+IMU estimator, their measurement-model class (absolute pressure altitude, range to ground, range to anchor, absolute 3-D position, relative pose, heading) and fusion weight (fixed, adaptive with the driving signal named, threshold switch, not stated). Basis of Table 9 |
-| Height channel (`height_channel`, `height_channel_weighting`) | yes/no, weighting as above. Basis of gap G3 |
-| Front-end representation (`frontend_type`, `point_features`, `frontend_evidence`) | Multi-label: descriptor point features, optical-flow-tracked corners, point features (tracker not stated), direct / photometric, semi-direct, dense, point-line, learned end-to-end, event-based, consumed pose stream, not stated. `point_features` = yes for the first three and point-line |
+| Auxiliary sensors (`aux_sensors`, `aux_measurement_models`, `aux_fusion_weight`, `aux_evidence`) | Sensors fused with the camera+IMU estimator, their measurement-model class (absolute pressure altitude, range to ground, range to anchor, absolute 3-D position, relative pose, heading) and fusion weight (fixed, adaptive with the driving signal named, threshold switch, not stated). Basis of Table 11 |
+| Height channel (`height_channel`, `height_channel_weighting`) | yes/no, weighting as above, or `scale or depth aid` when the height is used without being a measurement of the estimator. Basis of gap G3 |
+| Front-end representation (`frontend_type`, `point_features`, `frontend_evidence`) | Multi-label: descriptor point features, optical-flow-tracked corners, point features (tracker not stated), direct / photometric, semi-direct, dense, point-line, learned end-to-end, event-based, consumed pose stream, not stated. `point_features` = yes for the first three and point-line. Basis of Table 10 |
 | Per-keypoint quality scoring (`per_keypoint_quality_scoring`, `quality_scoring_evidence`) | yes / frame-level / motion-state / no. Basis of gap G1 |
-| Limitation codes (`limitation_codes`, `limitation_evidence`) | L1 computational cost, L2 visual degradation, L3 long-term drift, L4 monocular scale, L5 dynamic scenes, or `none stated`. Counted only when stated by the authors as a limitation of their own method. Basis of Table 15 |
+| Limitation codes (`limitation_codes`, `limitation_evidence`) | L1 computational cost, L2 visual degradation, L3 long-term drift, L4 monocular scale, L5 dynamic scenes, or `none stated`. Counted only when stated by the authors as a limitation of their own method. Basis of Table 17 |
 | Recoding notes (`recode_notes`) | Free text on the recoded columns |
 
 ## 11. Limitations (threats to validity)
@@ -168,22 +168,25 @@ One row per included article in `06_data_extraction/extractions_full.csv`. Field
 
 ## 12. Final Execution Summary
 
-Final PRISMA 2020 cascade, as reported in the manuscript (searches executed 2026-05-15 in Scopus, Web of Science and IEEE Xplore):
+Final PRISMA 2020 cascade, as reported in the manuscript (searches executed in September 2026 in Scopus, Web of Science and IEEE Xplore):
 
 | Stage | Count |
 |-------|-------|
-| Unique records after deduplication | 398 |
-| Title/abstract screened | 398 |
-| ├─ Retained for full-text retrieval | 230 |
-| └─ Excluded at title/abstract | 168 (12 under INC-4) |
-| Full text retrieved | 206 |
-| Excluded — full text unretrievable (EXC-8) | 24 |
-| Excluded at full-text triage (T-1/T-2/T-3, INC-4, EXC-9) | 83 |
-| **Final synthesis corpus** | **123** |
+| Records identified (Scopus 364, Web of Science 249, IEEE Xplore 408) | 1021 |
+| Duplicates removed | 397 |
+| Title/abstract screened | 624 |
+| ├─ Retained for full-text retrieval | 309 |
+| └─ Excluded at title/abstract | 315 (17 under INC-4) |
+| Full text retrieved | 283 |
+| Excluded — full text unretrievable (EXC-8) | 26 |
+| Excluded at full-text triage (T-1/T-2/T-3, INC-4, EXC-9) | 101 |
+| **Final synthesis corpus** | **182** |
 
-Full-text triage detail: of the 83 excluded, 66 failed T-1 (algorithmic contribution, 23 of these also failed T-3), 7 failed T-2, 5 failed T-3 alone, 2 were excluded under INC-4 (language), and 3 under EXC-9 (institutional origin). All three EXC-9 reports pass T-1/T-2/T-3, and including them would raise the corpus to 126 without changing any conclusion of the review.
+Full-text triage detail: of the 101 excluded, 76 failed T-1 (algorithmic contribution, 25 of these also failed T-3), 13 failed T-2, 7 failed T-3 alone, 2 were excluded under INC-4 (language), and 3 under EXC-9 (institutional origin). All three EXC-9 reports pass T-1/T-2/T-3. Including them would raise the corpus to 185 and change seven counts by one to three studies each, without changing which cells of the taxonomy are populated (Section 4.5 of the paper).
 
-Quality assessment: QA1–QA5 scored from full text for the 123 synthesised papers, mean QA total 4.12/5.0 (min 2.5, max 5.0), and **zero** papers below the 2.0 sensitivity threshold.
+Of the 182 studies, 125 explicitly target GNSS-denied operation (R1), 140 contain an adaptive or online component (R2), and 96 have both.
+
+Quality assessment: QA1–QA5 scored from full text for the 182 synthesised papers, mean QA total 4.14/5.0 (min 2.5, max 5.0), and **zero** papers below the 2.0 sensitivity threshold.
 
 ## References
 

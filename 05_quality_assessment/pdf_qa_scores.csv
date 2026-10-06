@@ -1,46 +1,46 @@
 id,class_id,qa1,qa2,qa3,qa4,qa5,qa_total,title
-P0216,C3,1.0,1,1.0,0.5,1.0,4.5,Visual-Inertial Image-Odometry Network (VIIONet): A Gaussian process regression-
-P0217,C1,1,1,1.0,0.0,1.0,4.0,SIMSF: A Scale Insensitive Multi-Sensor Fusion Framework for Unmanned Aerial Veh
-P0228,C4,1,1,1.0,0.5,1.0,4.5,Accurate IMU Factor Using Switched Linear Systems for VIO
-P0018,C1,1,1,1.0,0.0,1.0,4.0,Tightly-coupled Fusion of Global Positional Measurements in Optimization-based V
-P0021,C6,1.0,1,0.5,1.0,1.0,4.5,Visual-inertial-actuator odometry for multirotor UAVs with rotor drag and extern
-P0023,C4,1,1,1.0,0.5,1.0,4.5,Stereo visual-inertial fusion for UAV state estimation
-P0027,C2,1,1,1.0,0.5,1.0,4.5,Visual-inertial odometry with robust initialization and online scale estimation
-P0245,C6,1,1,0.5,0.0,0.5,3.0,Visual-Inertial Navigation Algorithm Development Using Photorealistic Camera Sim
-P0037,C2,1.0,1,0.5,1.0,1.0,4.5,Adaptive Covariance and Quaternion-Focused Hybrid Error-State EKF/UKF for Visual
-P0285,C2,1.0,1,1.0,0.5,1.0,4.5,Online spatial and temporal calibration for monocular direct visual-inertial odo
-P0286,C1,1,1,1.0,0.5,1.0,4.5,VIUNet: Deep Visual-Inertial-UWB Fusion for Indoor UAV Localization
-P0067,C2,1.0,1,0.0,0.5,0.5,3.0,Sensing and control of a quadrotor using a visual inertial fusion method
-P0309,C1,1,1,0.5,0.5,1.0,4.0,Distributed Variable-Baseline Stereo SLAM from two UAVs
-P0315,C7,1,1,0.0,0.0,0.5,2.5,Direct feature correspondence in vision-aided inertial navigation for unmanned a
-P0099,C3,1,1,1.0,1.0,1.0,5.0,Learning Pose Estimation for UAV Autonomous Navigation and Landing Using Visual-
-P0321,C6,1,1,1.0,0.5,1.0,4.5,Onboard real-time dense reconstruction of large-scale environments for UAV
-P0103,C6,1,1,1.0,0.5,1.0,4.5,ST-VIO: Visual-Inertial Odometry Combined with Image Segmentation and Tracking
-P0105,C2,1,1,0.5,0.0,0.5,3.0,An Online Calibration 2-DoF Attitude and Height State Estimator
-P0336,C5,1,1,1.0,0.0,1.0,4.0,Robust thermal-inertial localization for aerial robots: A case for direct method
-P0337,C2,1.0,1,0.0,1.0,1.0,4.0,Fusion of Optical Flow and Dead Reckoning Algorithms for UAV Navigation Without 
-P0108,C7,1,1,0.0,0.5,0.5,3.0,Visual Inertial Navigation for a Small UAV Using Sparse and Dense Optical Flow
-P0339,C1,1,1,1.0,1.0,1.0,5.0,LGVINS: LiDAR-GPS-Visual and Inertial System Based Multi-Sensor Fusion for Smoot
-P0341,C7,1.0,1,1.0,0.5,1.0,4.5,Deployment of Reliable Visual Inertial Odometry Approaches for Unmanned Aerial V
-P0345,C6,1,1,0.5,0.0,1.0,3.5,Dense visual-inertial navigation system for mobile robots
-P0124,C7,1.0,1,0.5,0.5,1.0,4.0,Latency compensated visual-inertial odometry for agile autonomous flight
-P0361,C2,1,1,0.5,1.0,1.0,4.5,Robust visual inertial odometry using a direct EKF-based approach
-P0363,C6,1,1,0.5,1.0,1.0,4.5,Autonomous Localization and Navigation for Drones Over Rivers
-P0377,C1,1,1,1.0,0.5,1.0,4.5,GOMSF: Graph-Optimization Based Multi-Sensor Fusion for robust UAV Pose estimati
-P0383,C5,1,1,1.0,1.0,1.0,5.0,Perception in the dark—development of a ToF visual inertial odometry system
-P0393,C5,1,1.0,0.0,0.0,1.0,3.0,Laser-aided Infrared Visual Inertial Odometry for Unmanned Aerial Vehicle with M
-P0176,C2,1,1,1.0,1.0,1.0,5.0,Photometric Visual-Inertial Navigation with Uncertainty-Aware Ensembles
-P0178,C1,1,1,1.0,0.5,1.0,4.5,Fusion of Visual-Inertial Odometry With LiDAR Relative Localization for Cooperat
-P0408,C1,1.0,1,0.0,0.5,0.5,3.0,Computationally efficient visual-inertial sensor fusion for Global Positioning S
-P0412,C6,1,1,1.0,1.0,1.0,5.0,Robust visual-inertial localization with weak GPS priors for repetitive UAV flig
-P0182,C6,1,1,0.0,0.5,1.0,3.5,Monocular visual-inertial SLAM for fixed-wing UAVs using sliding window based no
-P0196,C6,1.0,1,0.5,1.0,1.0,4.5,"AIVIO: Closed-Loop, Object-Relative Navigation of UAVs With AI-Aided Visual Iner"
-P0202,C2,1,1,1.0,0.0,1.0,4.0,PLI-VIO: Real-time Monocular Visual-inertial Odometry Using Point and Line Inter
-P0440,C3,1.0,1,1.0,0.5,1.0,4.5,SupSLAM: A Robust Visual Inertial SLAM System Using SuperPoint for Unmanned Aeri
-P0538,C6,1,1,1.0,1.0,1.0,5.0,Towards Globally Consistent Visual-Inertial Collaborative SLAM
-P0535,C7,1,1,1.0,1.0,1.0,5.0,LSTM and Filter Based Comparison Analysis for Indoor Global Localization in UAVs
-P0545,C7,1.0,1,1.0,0.5,1.0,4.5,Encoderless Gimbal Calibration of Dynamic Multi-Camera Clusters
-P0089,C4,1,1,0.5,1.0,1.0,4.5,Autonomous navigation of micro aerial vehicles using high-rate and low-cost sens
+P0216,C3,1.0,1.0,1.0,0.5,1.0,4.5,Visual-Inertial Image-Odometry Network (VIIONet): A Gaussian process regression-
+P0217,C1,1.0,1.0,1.0,0.0,1.0,4.0,SIMSF: A Scale Insensitive Multi-Sensor Fusion Framework for Unmanned Aerial Veh
+P0228,C4,1.0,1.0,1.0,0.5,1.0,4.5,Accurate IMU Factor Using Switched Linear Systems for VIO
+P0018,C1,1.0,1.0,1.0,0.0,1.0,4.0,Tightly-coupled Fusion of Global Positional Measurements in Optimization-based V
+P0021,C6,1.0,1.0,0.5,1.0,1.0,4.5,Visual-inertial-actuator odometry for multirotor UAVs with rotor drag and extern
+P0023,C4,1.0,1.0,1.0,0.5,1.0,4.5,Stereo visual-inertial fusion for UAV state estimation
+P0027,C2,1.0,1.0,1.0,0.5,1.0,4.5,Visual-inertial odometry with robust initialization and online scale estimation
+P0245,C6,1.0,1.0,0.5,0.0,0.5,3.0,Visual-Inertial Navigation Algorithm Development Using Photorealistic Camera Sim
+P0037,C2,1.0,1.0,0.5,1.0,1.0,4.5,Adaptive Covariance and Quaternion-Focused Hybrid Error-State EKF/UKF for Visual
+P0285,C2,1.0,1.0,1.0,0.5,1.0,4.5,Online spatial and temporal calibration for monocular direct visual-inertial odo
+P0286,C1,1.0,1.0,1.0,0.5,1.0,4.5,VIUNet: Deep Visual-Inertial-UWB Fusion for Indoor UAV Localization
+P0067,C2,1.0,1.0,0.0,0.5,0.5,3.0,Sensing and control of a quadrotor using a visual inertial fusion method
+P0309,C1,1.0,1.0,0.5,0.5,1.0,4.0,Distributed Variable-Baseline Stereo SLAM from two UAVs
+P0315,C7,1.0,1.0,0.0,0.0,0.5,2.5,Direct feature correspondence in vision-aided inertial navigation for unmanned a
+P0099,C3,1.0,1.0,1.0,1.0,1.0,5.0,Learning Pose Estimation for UAV Autonomous Navigation and Landing Using Visual-
+P0321,C6,1.0,1.0,1.0,0.5,1.0,4.5,Onboard real-time dense reconstruction of large-scale environments for UAV
+P0103,C6,1.0,1.0,1.0,0.5,1.0,4.5,ST-VIO: Visual-Inertial Odometry Combined with Image Segmentation and Tracking
+P0105,C2,1.0,1.0,0.5,0.0,0.5,3.0,An Online Calibration 2-DoF Attitude and Height State Estimator
+P0336,C5,1.0,1.0,1.0,0.0,1.0,4.0,Robust thermal-inertial localization for aerial robots: A case for direct method
+P0337,C2,1.0,1.0,0.0,1.0,1.0,4.0,Fusion of Optical Flow and Dead Reckoning Algorithms for UAV Navigation Without 
+P0108,C7,1.0,1.0,0.0,0.5,0.5,3.0,Visual Inertial Navigation for a Small UAV Using Sparse and Dense Optical Flow
+P0339,C1,1.0,1.0,1.0,1.0,1.0,5.0,LGVINS: LiDAR-GPS-Visual and Inertial System Based Multi-Sensor Fusion for Smoot
+P0341,C7,1.0,1.0,1.0,0.5,1.0,4.5,Deployment of Reliable Visual Inertial Odometry Approaches for Unmanned Aerial V
+P0345,C6,1.0,1.0,0.5,0.0,1.0,3.5,Dense visual-inertial navigation system for mobile robots
+P0124,C7,1.0,1.0,0.5,0.5,1.0,4.0,Latency compensated visual-inertial odometry for agile autonomous flight
+P0361,C2,1.0,1.0,0.5,1.0,1.0,4.5,Robust visual inertial odometry using a direct EKF-based approach
+P0363,C6,1.0,1.0,0.5,1.0,1.0,4.5,Autonomous Localization and Navigation for Drones Over Rivers
+P0377,C1,1.0,1.0,1.0,0.5,1.0,4.5,GOMSF: Graph-Optimization Based Multi-Sensor Fusion for robust UAV Pose estimati
+P0383,C5,1.0,1.0,1.0,1.0,1.0,5.0,Perception in the dark—development of a ToF visual inertial odometry system
+P0393,C5,1.0,1.0,0.0,0.0,1.0,3.0,Laser-aided Infrared Visual Inertial Odometry for Unmanned Aerial Vehicle with M
+P0176,C2,1.0,1.0,1.0,1.0,1.0,5.0,Photometric Visual-Inertial Navigation with Uncertainty-Aware Ensembles
+P0178,C1,1.0,1.0,1.0,0.5,1.0,4.5,Fusion of Visual-Inertial Odometry With LiDAR Relative Localization for Cooperat
+P0408,C1,1.0,1.0,0.0,0.5,0.5,3.0,Computationally efficient visual-inertial sensor fusion for Global Positioning S
+P0412,C6,1.0,1.0,1.0,1.0,1.0,5.0,Robust visual-inertial localization with weak GPS priors for repetitive UAV flig
+P0182,C6,1.0,1.0,0.0,0.5,1.0,3.5,Monocular visual-inertial SLAM for fixed-wing UAVs using sliding window based no
+P0196,C6,1.0,1.0,0.5,1.0,1.0,4.5,"AIVIO: Closed-Loop, Object-Relative Navigation of UAVs With AI-Aided Visual Iner"
+P0202,C2,1.0,1.0,1.0,0.0,1.0,4.0,PLI-VIO: Real-time Monocular Visual-inertial Odometry Using Point and Line Inter
+P0440,C3,1.0,1.0,1.0,0.5,1.0,4.5,SupSLAM: A Robust Visual Inertial SLAM System Using SuperPoint for Unmanned Aeri
+P0538,C6,1.0,1.0,1.0,1.0,1.0,5.0,Towards Globally Consistent Visual-Inertial Collaborative SLAM
+P0535,C7,1.0,1.0,1.0,1.0,1.0,5.0,LSTM and Filter Based Comparison Analysis for Indoor Global Localization in UAVs
+P0545,C7,1.0,1.0,1.0,0.5,1.0,4.5,Encoderless Gimbal Calibration of Dynamic Multi-Camera Clusters
+P0089,C4,1.0,1.0,0.5,1.0,1.0,4.5,Autonomous navigation of micro aerial vehicles using high-rate and low-cost sens
 P0026,C1,1.0,1.0,1.0,0.5,1.0,4.5,Information sparsification for visual-inertial odometry by manipulating Bayes tree
 P0039,C5,1.0,1.0,1.0,0.5,1.0,4.5,R-LVIO: Resilient LiDAR-Visual-Inertial Odometry for UAVs in GNSS-denied Environment
 P0087,C2,1.0,1.0,1.0,1.0,1.0,5.0,TSFNet: A Two-Stage Fusion Network for Visual–Inertial Odometry
@@ -122,3 +122,62 @@ P0565,C6,1.0,0.5,1.0,0.5,0.5,3.5,High-Altitude Visual Feature-Based Multi-Sensor
 P0584,C2,1.0,1.0,1.0,0.5,0.5,4.0,Confidence Factor-Based Robust Localization Algorithm With Visual-Inertial-LiDAR
 P0613,C2,1.0,0.5,1.0,0.5,0.5,3.5,Optimal Navigation and Obstacle Avoidance for UAV in Urban Canyons
 P0434,C1,1.0,0.5,1.0,0.0,0.5,3.0,LM-VINS: A Lightweight Magnetic-Assisted Visual-Inertial Navigation System for U
+P0387,C5,1.0,1.0,1.0,0.5,0.5,4.0,Augmented Ultra-Wideband Localization for Quadrotor UAV: Disturbance Rejection a
+P0702,C2,1.0,1.0,1.0,0.5,0.5,4.0,DC-VINS: Dynamic Camera Visual Inertial Navigation System with Online Calibratio
+P0703,C7,1.0,1.0,1.0,1.0,0.5,4.5,Fast Monocular Visual-Inertial Odometry With Point-Line Features and Vanishing P
+P0705,C1,1.0,1.0,0.5,0.0,1.0,3.5,Methodology for Localizing an Indoor Drone Using Onboard Sensors and Validating 
+P0706,C1,1.0,0.5,1.0,0.5,0.5,3.5,Cooperative Visual Inertial Odometry for Heterogeneous Swarm of Drones Navigatin
+P0708,C7,1.0,1.0,0.5,1.0,0.5,4.0,"A Visual Inertial Odometry Framework for 3D Points, Lines and Planes"
+P0711,C1,1.0,1.0,1.0,1.0,0.5,4.5,Information Sparsification in Visual-Inertial Odometry
+P0713,C2,1.0,0.5,1.0,0.5,0.5,3.5,Kernel-VIO : An Optimization-based Tightly Coupled Indirect Visual-Inertial Odom
+P0721,C1,1.0,1.0,1.0,0.5,0.5,4.0,An Observability Constrained Downward-Facing Optical-Flow-Aided Visual-Inertial 
+P0728,C6,1.0,1.0,1.0,1.0,0.5,4.5,LEVIO: Lightweight Embedded Visual Inertial Odometry for Resource-Constrained De
+P0729,C1,1.0,1.0,1.0,0.5,0.5,4.0,Dual Pose-Graph Semantic Localization for Vision-Based Autonomous Drone Racing
+P0731,C7,1.0,1.0,1.0,1.0,1.0,5.0,Attention and Anticipation in Fast Visual-Inertial Navigation
+P0733,C7,1.0,0.5,1.0,0.0,0.5,3.0,Optimization of Aerial Drone Visual Front-End and Multi-Sensor Fusion Localizati
+P0735,C2,1.0,1.0,1.0,0.5,0.5,4.0,Deep IMU Bias Inference for Robust Visual-Inertial Odometry With Factor Graphs
+P0736,C3,1.0,1.0,1.0,0.5,1.0,4.5,DM-VIO: Delayed Marginalization Visual-Inertial Odometry
+P0738,C2,1.0,1.0,1.0,0.5,1.0,4.5,Spatio-temporal Voxel Motion Estimation in Dynamic Environment for Visual-Inerti
+P0739,C2,1.0,1.0,1.0,0.5,1.0,4.5,QVIO2: Quantized Map-Based Visual-Inertial Odometry
+P0744,C7,1.0,1.0,1.0,1.0,0.5,4.5,LUNA: Light-based Urban Navigation and Anchor via Geometric Structural Constrain
+P0745,C7,1.0,1.0,1.0,0.0,0.5,3.5,VINS-Mask: A ROI-mask Feature Tracker for Monocular Visual-inertial System
+P0746,C1,1.0,1.0,1.0,0.0,0.5,3.5,Super Odometry: IMU-centric LiDAR-Visual-Inertial Estimator for Challenging Envi
+P0747,C5,1.0,1.0,1.0,0.5,1.0,4.5,PL-EVIO: Robust Monocular Event-Based Visual Inertial Odometry With Point and Li
+P0750,C2,1.0,1.0,1.0,1.0,0.5,4.5,A Look at Improving Robustness in Visual- inertial SLAM by Moment Matching
+P0751,C1,1.0,1.0,1.0,0.5,1.0,4.5,Self-Supervised Monocular Visual Drone Model Identification through Improved Occ
+P0754,C1,1.0,1.0,1.0,0.5,1.0,4.5,VPS-SLAM: Visual Planar Semantic SLAM for Aerial Robotic Systems
+P0763,C1,1.0,1.0,0.5,0.5,0.5,3.5,Decentralized Visual-Inertial-UWB Fusion for Relative State Estimation of Aerial
+P0773,C5,1.0,0.5,0.5,0.5,0.5,3.0,Multi-Drone Cooperative Localization via UWB and VIO Fusion
+P0799,C1,1.0,1.0,1.0,1.0,1.0,5.0,Omni-Swarm: A Decentralized Omnidirectional Visual–Inertial–UWB State Estimation
+P0803,C1,1.0,1.0,1.0,1.0,1.0,5.0,Drift-Free Visual SLAM Using Digital Twins
+P0804,C5,1.0,1.0,0.5,1.0,1.0,4.5,Thermal-Inertial Odometry for Autonomous Flight Throughout the Night
+P0808,C1,1.0,0.5,1.0,0.5,0.5,3.5,Hierarchical Connectivity-Based Optimisation for Multi-UAV Relative State Estima
+P0811,C2,1.0,1.0,1.0,0.5,1.0,4.5,HDVIO2.0: Wind and Disturbance Estimation With Hybrid Dynamics VIO
+P0820,C2,1.0,0.5,1.0,0.5,1.0,4.0,DynaVINS: A Visual-Inertial SLAM for Dynamic Environments
+P0822,C1,1.0,1.0,0.5,1.0,1.0,4.5,A Unified Error-State Kalman Filtering Framework for Multi-Sensor Navigation of 
+P0839,C2,1.0,1.0,1.0,0.5,1.0,4.5,Trust Your IMU: Consequences of Ignoring the IMU Drift
+P0841,C6,1.0,1.0,1.0,1.0,1.0,5.0,"ORB-SLAM3: An Accurate Open-Source Library for Visual, Visual–Inertial, and Mult"
+P0848,C1,1.0,1.0,1.0,1.0,1.0,5.0,Efficiently Range-Coupled Position Estimation for an Aerial Swarm With the Confi
+P0850,C2,1.0,1.0,1.0,0.0,0.5,3.5,Improving Visual SLAM in Complex Nighttime Scenarios: A Robust Low-Light Solutio
+P0858,C7,1.0,1.0,1.0,0.5,0.5,4.0,Loosely Coupled Stereo VINS Based on Point-Line Features Tracking With Feedback 
+P0859,C7,1.0,1.0,1.0,0.5,0.5,4.0,Edged USLAM: Edge-Aware Event-Based SLAM with Learning-Based Depth Priors
+P0862,C7,1.0,1.0,1.0,1.0,0.5,4.5,IE-VINS: A content-adaptive visual-inertial navigation system with gradient-awar
+P0863,C7,1.0,1.0,1.0,0.5,0.5,4.0,Kimera2: Robust and Accurate Metric-Semantic SLAM in the Real World
+P0864,C2,1.0,1.0,1.0,1.0,1.0,5.0,A Reliability-Aware Visual-Inertial Odometry for Dynamic and Low-Texture Environ
+P0865,C7,1.0,1.0,1.0,1.0,0.5,4.5,Magnetometer-based enhanced visual-inertial odometry for reliable long-range nav
+P0867,C2,1.0,1.0,1.0,0.5,0.5,4.0,A continual evolving Visual-Inertial Odometry for drones in flight
+P0870,C1,1.0,1.0,1.0,0.5,0.5,4.0,Fusion localization for indoor airplane inspection using visual inertial odometr
+P0876,C2,1.0,0.5,1.0,1.0,0.5,4.0,A control-theoretic framework for autonomous UAV navigation in GNSSdenied enviro
+P0878,C1,1.0,1.0,1.0,1.0,0.5,4.5,BIM-Constrained Elastic Fusion Navigation Framework for UAV Bridge Inspection Un
+P0880,C2,1.0,0.5,1.0,0.0,0.5,3.0,A Performance Analysis of Pose Estimation Based on Two-View Tracking and Multi-S
+P0882,C1,1.0,1.0,1.0,1.0,0.5,4.5,Indoor UAV Localization via Multi-Anchor One-Shot Calibration and Factor Graph F
+P0888,C1,1.0,1.0,1.0,1.0,0.5,4.5,ESKF-g2o-SLAM: A Stereo Visual-Inertial SLAM with ORB Features and ESKF-Based VI
+P0892,C2,1.0,1.0,1.0,0.5,0.5,4.0,Condition-Based LSTM for Residual Calculation of Optical Flow
+P0901,C5,1.0,1.0,1.0,1.0,0.5,4.5,Lightweight event camera inertial fusion pose estimation with Cramer Rao lower b
+P0902,C6,1.0,1.0,1.0,0.5,0.5,4.0,MarsBird-VII: An Autonomous Stereo-Inertial Navigation System with Real-Time Opt
+P0903,C1,1.0,1.0,1.0,1.0,0.5,4.5,VARIATIONAL STATE-SPACE MODELS FOR LOCALISATION AND DENSE 3D MAPPING IN 6 DOF
+P0907,C1,1.0,1.0,1.0,0.0,0.5,3.5,Infrared visual-inertia-UWB fusion positioning method for drones in cabin enviro
+P0908,C7,1.0,1.0,1.0,0.5,0.5,4.0,BotVIO: A Lightweight Transformer-Based Visual–Inertial Odometry for Robotics
+P0910,C7,1.0,0.5,1.0,1.0,0.5,4.0,SIVR-VIF: System-Level Source-End Inertial Measurement Unit and Visual Reconstru
+P0919,C7,1.0,1.0,1.0,1.0,1.0,5.0,Semi-dense visual-inertial odometry and mapping for computationally constrained 
+P0924,C6,1.0,1.0,0.5,0.5,0.5,3.5,Autonomous Quadrotor Flight despite Rotor Failure with Onboard Vision Sensors: F
