@@ -258,13 +258,13 @@ def fig_gap_matrix():
          [('IMU preint.\n+ scale', 'full'), ('Fixed / switched\nbaro, altimeter', 'part'),
           ('Adaptive\nquality-wtd.\nG3', 'gap')]),
         ('Robustness /\nmode switching',
-         [('M-estimator\n/ chi-sq.', 'full'), ('Single-trigger\nswitching', 'part'),
-          ('Multi-criterion\nswitching\nG4', 'gap')]),
+         [('M-estimator\n/ chi-sq.', 'full'), ('Trigger-based\nswitching', 'part'),
+          ('Joint-quality\nswitching\nG4', 'gap')]),
         ('Evaluation\ncoverage',
          [('Handheld /\nKITTI, TUM', 'full'), ('EuRoC /\nVIODE sim.', 'part'),
           ('Long GNSS-\ndenied\nG5', 'gap')]),
     ]
-    head = ['Established', 'Intermediate', 'Open gap']
+    head = ['Established', 'Nearest approach', 'Research gap']
     scol = {'full': FULL, 'part': PART, 'none': NONE_C, 'gap': GAP}
     _fit_fonts(DISPLAY_W_IN)
     fig, ax = plt.subplots(figsize=(DISPLAY_W_IN, 6.5))
@@ -287,8 +287,8 @@ def fig_gap_matrix():
                     fontsize=_FS, color=tcol, zorder=3, linespacing=1.2)
     ax.set_xlim(-2.25, 3 * px + 0.05); ax.set_ylim(-0.10, top + 0.85); ax.axis('off')
     leg = [mpatches.Patch(color=FULL, label='Established in corpus'),
-           mpatches.Patch(color=PART, label='Current intermediate frontier'),
-           mpatches.Patch(color=GAP, label='Open research gap (G1\u2013G5)')]
+           mpatches.Patch(color=PART, label='Nearest documented approach'),
+           mpatches.Patch(color=GAP, label='Research gap (G1\u2013G5)')]
     ax.legend(handles=leg, loc='upper center', bbox_to_anchor=(0.5, -0.01), ncol=2,
               frameon=False, fontsize=_FS, handlelength=1.1)
     fig.tight_layout(); fig.savefig(FIG_DIR / 'fig6_gap_matrix.png'); plt.close(fig)
@@ -320,7 +320,7 @@ def validate():
     if noclass:
         ok = False; print(f'  ERROR: corpus papers with no class_id (refs): {noclass}')
     # Coverage: validation regime and metric rows must cover the corpus (T-3 implies >=1 metric);
-    # platform rows must partition it (Table 12 is reported as summing to 100 %).
+    # platform rows must partition it (Table 14 is reported as summing to 100 %).
     def union(key):
         return set().union(*(set(r['refs']) for r in PARAM.get(key, []))) if PARAM.get(key) else set()
     for key in ('validation', 'metrics', 'frontend', 'platform'):
